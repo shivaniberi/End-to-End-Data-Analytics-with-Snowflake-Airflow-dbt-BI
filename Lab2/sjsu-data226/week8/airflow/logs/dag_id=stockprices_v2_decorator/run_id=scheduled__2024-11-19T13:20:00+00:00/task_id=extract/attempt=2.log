@@ -1,0 +1,19 @@
+[2024-11-19T15:56:54.590+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-19T15:56:54.627+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stockprices_v2_decorator.extract scheduled__2024-11-19T13:20:00+00:00 [queued]>
+[2024-11-19T15:56:54.644+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stockprices_v2_decorator.extract scheduled__2024-11-19T13:20:00+00:00 [queued]>
+[2024-11-19T15:56:54.645+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-11-19T15:56:54.670+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2024-11-19 13:20:00+00:00
+[2024-11-19T15:56:54.691+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=8581) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-19T15:56:54.695+0000] {standard_task_runner.py:63} INFO - Started process 8586 to run task
+[2024-11-19T15:56:54.706+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'stockprices_v2_decorator', 'extract', 'scheduled__2024-11-19T13:20:00+00:00', '--job-id', '2078', '--raw', '--subdir', 'DAGS_FOLDER/stockprices_v2_decorator(3).py', '--cfg-path', '/tmp/tmpl47lpc5g']
+[2024-11-19T15:56:54.711+0000] {standard_task_runner.py:91} INFO - Job 2078: Subtask extract
+[2024-11-19T15:56:54.865+0000] {task_command.py:426} INFO - Running <TaskInstance: stockprices_v2_decorator.extract scheduled__2024-11-19T13:20:00+00:00 [running]> on host 3627cdc70e56
+[2024-11-19T15:56:55.070+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stockprices_v2_decorator' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-11-19T13:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-19T13:20:00+00:00'
+[2024-11-19T15:56:55.093+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-19T15:56:55.600+0000] {python.py:237} INFO - Done. Returned value was: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+[2024-11-19T15:56:55.619+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-19T15:56:55.749+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=stockprices_v2_decorator, task_id=extract, run_id=scheduled__2024-11-19T13:20:00+00:00, execution_date=20241119T132000, start_date=20241119T155654, end_date=20241119T155655
+[2024-11-19T15:56:55.893+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-11-19T15:56:55.966+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,148 @@
+[2024-11-19T01:00:11.116+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-19T01:00:11.140+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stockprices_v2_decorator.load__1 scheduled__2024-11-19T00:50:00+00:00 [queued]>
+[2024-11-19T01:00:11.145+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stockprices_v2_decorator.load__1 scheduled__2024-11-19T00:50:00+00:00 [queued]>
+[2024-11-19T01:00:11.147+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-11-19T01:00:11.157+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): load__1> on 2024-11-19 00:50:00+00:00
+[2024-11-19T01:00:11.166+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=4962) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-19T01:00:11.168+0000] {standard_task_runner.py:63} INFO - Started process 4964 to run task
+[2024-11-19T01:00:11.169+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'stockprices_v2_decorator', 'load__1', 'scheduled__2024-11-19T00:50:00+00:00', '--job-id', '1809', '--raw', '--subdir', 'DAGS_FOLDER/stockprices_v2_decorator(3).py', '--cfg-path', '/tmp/tmpkhp_1jfw']
+[2024-11-19T01:00:11.171+0000] {standard_task_runner.py:91} INFO - Job 1809: Subtask load__1
+[2024-11-19T01:00:11.212+0000] {task_command.py:426} INFO - Running <TaskInstance: stockprices_v2_decorator.load__1 scheduled__2024-11-19T00:50:00+00:00 [running]> on host 3627cdc70e56
+[2024-11-19T01:00:11.292+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stockprices_v2_decorator' AIRFLOW_CTX_TASK_ID='load__1' AIRFLOW_CTX_EXECUTION_DATE='2024-11-19T00:50:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-19T00:50:00+00:00'
+[2024-11-19T01:00:11.294+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-19T01:00:11.304+0000] {base.py:84} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2024-11-19T01:00:11.306+0000] {connection.py:399} INFO - Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: Linux-5.10.25-linuxkit-aarch64-with-glibc2.36
+[2024-11-19T01:00:11.307+0000] {connection.py:1239} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-11-19T01:00:12.396+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-19T01:00:12.398+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-18, Symbol=NVDA: Open=139.5000, High=141.5500, Low=137.1500, Close=140.1500, Volume=216874603
+[2024-11-19T01:00:13.329+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-18 and NVDA.
+[2024-11-19T01:00:13.332+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-15, Symbol=NVDA: Open=144.8700, High=145.2400, Low=140.0800, Close=141.9800, Volume=250132869
+[2024-11-19T01:00:14.013+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-15 and NVDA.
+[2024-11-19T01:00:14.014+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-14, Symbol=NVDA: Open=147.6400, High=149.0000, Low=145.5500, Close=146.7600, Volume=194463301
+[2024-11-19T01:00:14.725+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-14 and NVDA.
+[2024-11-19T01:00:14.727+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-13, Symbol=NVDA: Open=149.0700, High=149.3300, Low=145.9000, Close=146.2700, Volume=191903267
+[2024-11-19T01:00:15.421+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-13 and NVDA.
+[2024-11-19T01:00:15.426+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-12, Symbol=NVDA: Open=146.7800, High=149.6500, Low=146.0100, Close=148.2900, Volume=198634738
+[2024-11-19T01:00:18.090+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-12 and NVDA.
+[2024-11-19T01:00:18.101+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-11, Symbol=NVDA: Open=148.6800, High=148.8500, Low=143.5700, Close=145.2600, Volume=182325620
+[2024-11-19T01:00:18.772+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-11 and NVDA.
+[2024-11-19T01:00:18.776+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-08, Symbol=NVDA: Open=148.7700, High=149.7700, Low=146.2600, Close=147.6300, Volume=175665830
+[2024-11-19T01:00:21.424+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-08 and NVDA.
+[2024-11-19T01:00:21.427+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-07, Symbol=NVDA: Open=146.3900, High=148.9300, Low=146.1700, Close=148.8800, Volume=207323303
+[2024-11-19T01:00:22.116+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-07 and NVDA.
+[2024-11-19T01:00:22.121+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-06, Symbol=NVDA: Open=142.9600, High=146.4900, Low=141.9600, Close=145.6100, Volume=242043945
+[2024-11-19T01:00:22.845+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-06 and NVDA.
+[2024-11-19T01:00:22.846+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-05, Symbol=NVDA: Open=137.4500, High=140.3701, Low=137.3300, Close=139.9100, Volume=160537373
+[2024-11-19T01:00:23.553+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-05 and NVDA.
+[2024-11-19T01:00:23.556+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-04, Symbol=NVDA: Open=137.2100, High=138.9600, Low=135.5700, Close=136.0500, Volume=187528173
+[2024-11-19T01:00:26.208+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-04 and NVDA.
+[2024-11-19T01:00:26.214+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-01, Symbol=NVDA: Open=134.7000, High=137.3100, Low=134.5700, Close=135.4000, Volume=207127838
+[2024-11-19T01:00:26.921+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-01 and NVDA.
+[2024-11-19T01:00:26.925+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-31, Symbol=NVDA: Open=137.6000, High=137.6100, Low=132.1106, Close=132.7600, Volume=270039641
+[2024-11-19T01:00:29.593+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-31 and NVDA.
+[2024-11-19T01:00:29.597+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-30, Symbol=NVDA: Open=139.5400, High=140.3300, Low=136.8100, Close=139.3350, Volume=179418082
+[2024-11-19T01:00:32.281+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-30 and NVDA.
+[2024-11-19T01:00:32.291+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-29, Symbol=NVDA: Open=140.2850, High=142.2598, Low=138.9000, Close=141.2500, Volume=157593634
+[2024-11-19T01:00:32.960+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-29 and NVDA.
+[2024-11-19T01:00:32.966+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-28, Symbol=NVDA: Open=143.0000, High=143.1400, Low=140.0500, Close=140.5200, Volume=173586745
+[2024-11-19T01:00:33.661+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-28 and NVDA.
+[2024-11-19T01:00:33.665+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-25, Symbol=NVDA: Open=140.9300, High=144.1300, Low=140.8000, Close=141.5400, Volume=205122109
+[2024-11-19T01:00:34.506+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-25 and NVDA.
+[2024-11-19T01:00:34.508+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-24, Symbol=NVDA: Open=140.8200, High=141.3500, Low=138.4600, Close=140.4100, Volume=172354888
+[2024-11-19T01:00:35.151+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-24 and NVDA.
+[2024-11-19T01:00:35.157+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-23, Symbol=NVDA: Open=142.0300, High=142.4300, Low=137.4600, Close=139.5600, Volume=285930038
+[2024-11-19T01:00:35.855+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-23 and NVDA.
+[2024-11-19T01:00:35.859+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-22, Symbol=NVDA: Open=142.9100, High=144.4200, Low=141.7800, Close=143.5900, Volume=226311589
+[2024-11-19T01:00:36.554+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-22 and NVDA.
+[2024-11-19T01:00:36.555+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-21, Symbol=NVDA: Open=138.1300, High=143.7100, Low=138.0000, Close=143.7100, Volume=264554514
+[2024-11-19T01:00:37.234+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-21 and NVDA.
+[2024-11-19T01:00:37.235+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-18, Symbol=NVDA: Open=138.6650, High=138.9000, Low=137.2800, Close=138.0000, Volume=176090184
+[2024-11-19T01:00:37.953+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-18 and NVDA.
+[2024-11-19T01:00:37.956+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-17, Symbol=NVDA: Open=139.3400, High=140.8900, Low=136.8700, Close=136.9300, Volume=306435921
+[2024-11-19T01:00:38.667+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-17 and NVDA.
+[2024-11-19T01:00:38.671+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-16, Symbol=NVDA: Open=133.9800, High=136.6200, Low=131.5800, Close=135.7200, Volume=264879720
+[2024-11-19T01:00:39.328+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-16 and NVDA.
+[2024-11-19T01:00:39.329+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-15, Symbol=NVDA: Open=137.8700, High=138.5700, Low=128.7400, Close=131.6000, Volume=377831021
+[2024-11-19T01:00:42.016+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-15 and NVDA.
+[2024-11-19T01:00:42.020+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-14, Symbol=NVDA: Open=136.4700, High=139.6000, Low=136.3000, Close=138.0700, Volume=232347668
+[2024-11-19T01:00:42.661+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-14 and NVDA.
+[2024-11-19T01:00:42.662+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-11, Symbol=NVDA: Open=134.0100, High=135.7800, Low=133.6600, Close=134.8000, Volume=170209474
+[2024-11-19T01:00:43.358+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-11 and NVDA.
+[2024-11-19T01:00:43.359+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-10, Symbol=NVDA: Open=131.9100, High=135.0000, Low=131.0000, Close=134.8100, Volume=242311337
+[2024-11-19T01:00:44.036+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-10 and NVDA.
+[2024-11-19T01:00:44.039+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-09, Symbol=NVDA: Open=134.1100, High=134.5200, Low=131.3800, Close=132.6500, Volume=246191612
+[2024-11-19T01:00:44.754+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-09 and NVDA.
+[2024-11-19T01:00:44.757+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-08, Symbol=NVDA: Open=130.2600, High=133.4800, Low=129.4200, Close=132.8900, Volume=285722485
+[2024-11-19T01:00:47.522+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-08 and NVDA.
+[2024-11-19T01:00:47.525+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-07, Symbol=NVDA: Open=124.9900, High=130.6400, Low=124.9500, Close=127.7200, Volume=346250233
+[2024-11-19T01:00:48.171+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-07 and NVDA.
+[2024-11-19T01:00:48.177+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-04, Symbol=NVDA: Open=124.9400, High=125.0400, Low=121.8300, Close=124.9200, Volume=244465552
+[2024-11-19T01:00:50.819+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-04 and NVDA.
+[2024-11-19T01:00:50.827+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-03, Symbol=NVDA: Open=120.9200, High=124.3600, Low=120.3401, Close=122.8500, Volume=277117973
+[2024-11-19T01:00:51.544+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-03 and NVDA.
+[2024-11-19T01:00:51.548+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-02, Symbol=NVDA: Open=116.4400, High=119.3800, Low=115.1400, Close=118.8500, Volume=221845887
+[2024-11-19T01:00:52.207+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-02 and NVDA.
+[2024-11-19T01:00:52.213+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-01, Symbol=NVDA: Open=121.7650, High=122.4351, Low=115.7900, Close=117.0000, Volume=302094485
+[2024-11-19T01:00:52.946+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-01 and NVDA.
+[2024-11-19T01:00:52.948+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-30, Symbol=NVDA: Open=118.3100, High=121.5000, Low=118.1500, Close=121.4400, Volume=227053651
+[2024-11-19T01:00:53.595+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-30 and NVDA.
+[2024-11-19T01:00:53.599+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-27, Symbol=NVDA: Open=123.9700, High=124.0300, Low=119.2600, Close=121.4000, Volume=271009175
+[2024-11-19T01:00:54.269+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-27 and NVDA.
+[2024-11-19T01:00:54.273+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-26, Symbol=NVDA: Open=126.8000, High=127.6650, Low=121.8000, Close=124.0400, Volume=302582868
+[2024-11-19T01:00:54.970+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-26 and NVDA.
+[2024-11-19T01:00:54.971+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-25, Symbol=NVDA: Open=122.0200, High=124.9400, Low=121.6100, Close=123.5100, Volume=284692948
+[2024-11-19T01:00:55.748+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-25 and NVDA.
+[2024-11-19T01:00:55.753+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-24, Symbol=NVDA: Open=116.5150, High=121.8000, Low=115.3800, Close=120.8700, Volume=354966772
+[2024-11-19T01:00:56.466+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-24 and NVDA.
+[2024-11-19T01:00:56.470+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-23, Symbol=NVDA: Open=116.5500, High=116.9900, Low=114.8600, Close=116.2600, Volume=206228490
+[2024-11-19T01:00:57.156+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-23 and NVDA.
+[2024-11-19T01:00:57.161+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-20, Symbol=NVDA: Open=117.0600, High=118.6181, Low=115.3901, Close=116.0000, Volume=382462428
+[2024-11-19T01:00:57.864+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-20 and NVDA.
+[2024-11-19T01:00:57.865+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-19, Symbol=NVDA: Open=117.3500, High=119.6600, Low=117.2500, Close=117.8700, Volume=293506438
+[2024-11-19T01:00:58.603+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-19 and NVDA.
+[2024-11-19T01:00:58.607+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-18, Symbol=NVDA: Open=115.8900, High=117.7000, Low=113.2200, Close=113.3700, Volume=310318937
+[2024-11-19T01:01:01.282+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-18 and NVDA.
+[2024-11-19T01:01:01.285+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-17, Symbol=NVDA: Open=118.1700, High=118.8000, Low=114.8300, Close=115.5900, Volume=231925876
+[2024-11-19T01:01:03.917+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-17 and NVDA.
+[2024-11-19T01:01:03.919+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-16, Symbol=NVDA: Open=116.7900, High=118.1800, Low=114.3600, Close=116.7800, Volume=248772308
+[2024-11-19T01:01:04.623+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-16 and NVDA.
+[2024-11-19T01:01:04.627+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-13, Symbol=NVDA: Open=119.0800, High=119.9550, Low=117.6000, Close=119.1000, Volume=238358328
+[2024-11-19T01:01:05.309+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-13 and NVDA.
+[2024-11-19T01:01:05.315+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-12, Symbol=NVDA: Open=116.8400, High=120.7900, Low=115.3800, Close=119.1400, Volume=367100496
+[2024-11-19T01:01:05.975+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-12 and NVDA.
+[2024-11-19T01:01:05.977+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-11, Symbol=NVDA: Open=109.3900, High=117.1900, Low=107.4200, Close=116.9100, Volume=441422370
+[2024-11-19T01:01:08.636+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-11 and NVDA.
+[2024-11-19T01:01:08.648+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-10, Symbol=NVDA: Open=107.8100, High=109.4000, Low=104.9500, Close=108.1000, Volume=268283736
+[2024-11-19T01:01:09.345+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-10 and NVDA.
+[2024-11-19T01:01:09.346+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-09, Symbol=NVDA: Open=104.8800, High=106.5500, Low=103.6900, Close=106.4700, Volume=273912015
+[2024-11-19T01:01:10.080+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-09 and NVDA.
+[2024-11-19T01:01:10.082+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-06, Symbol=NVDA: Open=108.0400, High=108.1500, Low=100.9500, Close=102.8300, Volume=413638098
+[2024-11-19T01:01:10.780+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-06 and NVDA.
+[2024-11-19T01:01:10.783+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-05, Symbol=NVDA: Open=104.9850, High=109.6500, Low=104.7600, Close=107.2100, Volume=306850696
+[2024-11-19T01:01:13.415+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-05 and NVDA.
+[2024-11-19T01:01:13.425+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-04, Symbol=NVDA: Open=105.4100, High=113.2700, Low=104.1200, Close=106.2100, Volume=368378810
+[2024-11-19T01:01:14.118+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-04 and NVDA.
+[2024-11-19T01:01:14.120+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-03, Symbol=NVDA: Open=116.0100, High=116.2100, Low=107.2900, Close=108.0000, Volume=477155100
+[2024-11-19T01:01:14.785+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-03 and NVDA.
+[2024-11-19T01:01:14.787+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-30, Symbol=NVDA: Open=119.5300, High=121.7500, Low=117.2200, Close=119.3700, Volume=333751583
+[2024-11-19T01:01:15.485+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-30 and NVDA.
+[2024-11-19T01:01:15.486+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-29, Symbol=NVDA: Open=121.3550, High=124.4300, Low=116.7100, Close=117.5900, Volume=453023305
+[2024-11-19T01:01:16.187+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-29 and NVDA.
+[2024-11-19T01:01:16.188+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-28, Symbol=NVDA: Open=128.1200, High=128.3300, Low=122.6400, Close=125.6100, Volume=448101115
+[2024-11-19T01:01:16.883+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-28 and NVDA.
+[2024-11-19T01:01:16.894+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-27, Symbol=NVDA: Open=125.0500, High=129.2000, Low=123.8800, Close=128.3000, Volume=303134573
+[2024-11-19T01:01:19.503+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-27 and NVDA.
+[2024-11-19T01:01:19.506+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-26, Symbol=NVDA: Open=129.5700, High=131.2600, Low=124.3700, Close=126.4600, Volume=331964672
+[2024-11-19T01:01:22.205+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-26 and NVDA.
+[2024-11-19T01:01:22.206+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-23, Symbol=NVDA: Open=125.8600, High=129.6000, Low=125.2200, Close=129.3700, Volume=323230332
+[2024-11-19T01:01:22.859+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-23 and NVDA.
+[2024-11-19T01:01:22.862+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-22, Symbol=NVDA: Open=130.0200, High=130.7500, Low=123.1000, Close=123.7400, Volume=376189076
+[2024-11-19T01:01:23.485+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-22 and NVDA.
+[2024-11-19T01:01:23.493+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-11-19T01:01:23.497+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-19T01:01:23.535+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=stockprices_v2_decorator, task_id=load__1, run_id=scheduled__2024-11-19T00:50:00+00:00, execution_date=20241119T005000, start_date=20241119T010011, end_date=20241119T010123
+[2024-11-19T01:01:23.655+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-11-19T01:01:23.681+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-19T01:01:23.684+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

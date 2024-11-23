@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_data
+    tables:
+      - name: STOCK_PRICE
+        description: "Table containing stock price data"
+

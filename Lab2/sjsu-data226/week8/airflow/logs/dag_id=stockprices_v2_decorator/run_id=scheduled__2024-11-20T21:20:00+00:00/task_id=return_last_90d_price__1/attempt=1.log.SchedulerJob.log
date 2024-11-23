@@ -1,0 +1,1 @@
+[2024-11-20T22:45:27.578+0000] {task_context_logger.py:104} WARNING - Marking task instance <TaskInstance: stockprices_v2_decorator.return_last_90d_price__1 scheduled__2024-11-20T21:20:00+00:00 [queued]> stuck in queued as failed. If the task instance has available retries, it will be retried.

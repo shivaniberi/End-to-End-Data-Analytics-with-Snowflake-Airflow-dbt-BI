@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dev
+    database: dev
+    schema: raw_data
+    tables:
+      - name: STOCK_PRICE
+

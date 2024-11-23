@@ -1,0 +1,580 @@
+[2024-11-19T06:30:56.050+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-19T06:30:59.477+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stockprices_v2_decorator.transform scheduled__2024-11-19T05:00:00+00:00 [queued]>
+[2024-11-19T06:30:59.737+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stockprices_v2_decorator.transform scheduled__2024-11-19T05:00:00+00:00 [queued]>
+[2024-11-19T06:30:59.741+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-11-19T06:30:59.917+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): transform> on 2024-11-19 05:00:00+00:00
+[2024-11-19T06:31:00.179+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=7443) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-19T06:31:00.259+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'stockprices_v2_decorator', 'transform', 'scheduled__2024-11-19T05:00:00+00:00', '--job-id', '1973', '--raw', '--subdir', 'DAGS_FOLDER/stockprices_v2_decorator(3).py', '--cfg-path', '/tmp/tmpr24jm9_h']
+[2024-11-19T06:31:00.306+0000] {standard_task_runner.py:63} INFO - Started process 7476 to run task
+[2024-11-19T06:31:00.389+0000] {standard_task_runner.py:91} INFO - Job 1973: Subtask transform
+[2024-11-19T06:31:02.008+0000] {task_command.py:426} INFO - Running <TaskInstance: stockprices_v2_decorator.transform scheduled__2024-11-19T05:00:00+00:00 [running]> on host 3627cdc70e56
+[2024-11-19T06:31:05.098+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stockprices_v2_decorator' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2024-11-19T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-19T05:00:00+00:00'
+[2024-11-19T06:31:05.234+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-19T06:31:05.305+0000] {logging_mixin.py:188} INFO - Processed Data: [
+  {
+    "date": "2024-11-18",
+    "open": "414.8700",
+    "high": "418.4037",
+    "low": "412.1000",
+    "close": "415.7600",
+    "volume": "24742013",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-11-15",
+    "open": "419.8200",
+    "high": "422.8000",
+    "low": "413.6400",
+    "close": "415.0000",
+    "volume": "28247644",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-11-14",
+    "open": "425.0000",
+    "high": "428.1700",
+    "low": "420.0000",
+    "close": "426.8900",
+    "volume": "30246881",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-11-13",
+    "open": "421.6400",
+    "high": "429.3250",
+    "low": "418.2100",
+    "close": "425.2000",
+    "volume": "21502185",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-11-12",
+    "open": "418.2500",
+    "high": "424.4400",
+    "low": "417.2000",
+    "close": "423.0300",
+    "volume": "19401204",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-11-11",
+    "open": "422.5150",
+    "high": "424.8100",
+    "low": "416.0000",
+    "close": "418.0100",
+    "volume": "24503321",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-11-08",
+    "open": "425.3200",
+    "high": "426.5000",
+    "low": "421.7800",
+    "close": "422.5400",
+    "volume": "16891414",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-11-07",
+    "open": "421.2800",
+    "high": "426.8500",
+    "low": "419.8800",
+    "close": "425.4300",
+    "volume": "19901782",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-11-06",
+    "open": "412.4200",
+    "high": "420.4500",
+    "low": "410.5200",
+    "close": "420.1800",
+    "volume": "26681842",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-11-05",
+    "open": "408.3700",
+    "high": "414.9000",
+    "low": "408.0800",
+    "close": "411.4600",
+    "volume": "17626011",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-11-04",
+    "open": "409.8000",
+    "high": "410.4150",
+    "low": "405.5713",
+    "close": "408.4600",
+    "volume": "19672286",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-11-01",
+    "open": "409.0100",
+    "high": "415.5000",
+    "low": "407.5000",
+    "close": "410.3700",
+    "volume": "24230442",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-31",
+    "open": "415.3600",
+    "high": "416.1600",
+    "low": "406.3000",
+    "close": "406.3500",
+    "volume": "53970981",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-30",
+    "open": "437.4350",
+    "high": "438.5000",
+    "low": "432.1000",
+    "close": "432.5300",
+    "volume": "29749149",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-29",
+    "open": "428.0000",
+    "high": "433.1700",
+    "low": "425.8001",
+    "close": "431.9500",
+    "volume": "17644080",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-28",
+    "open": "431.6550",
+    "high": "431.9400",
+    "low": "426.3000",
+    "close": "426.5900",
+    "volume": "14882444",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-25",
+    "open": "426.7600",
+    "high": "432.5200",
+    "low": "426.5650",
+    "close": "428.1500",
+    "volume": "16899064",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-24",
+    "open": "425.3250",
+    "high": "425.9782",
+    "low": "422.4000",
+    "close": "424.7300",
+    "volume": "13581631",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-23",
+    "open": "430.8550",
+    "high": "431.0800",
+    "low": "422.5300",
+    "close": "424.6000",
+    "volume": "19654379",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-22",
+    "open": "418.4900",
+    "high": "430.5793",
+    "low": "418.0400",
+    "close": "427.5100",
+    "volume": "25482197",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-21",
+    "open": "416.1200",
+    "high": "418.9600",
+    "low": "413.7501",
+    "close": "418.7800",
+    "volume": "14206115",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-18",
+    "open": "417.1400",
+    "high": "419.6500",
+    "low": "416.2601",
+    "close": "418.1600",
+    "volume": "17145317",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-17",
+    "open": "422.3600",
+    "high": "422.5000",
+    "low": "415.5900",
+    "close": "416.7200",
+    "volume": "14820004",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-16",
+    "open": "415.1700",
+    "high": "416.3600",
+    "low": "410.4800",
+    "close": "416.1200",
+    "volume": "15508932",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-15",
+    "open": "422.1800",
+    "high": "422.4800",
+    "low": "415.2600",
+    "close": "418.7400",
+    "volume": "18900201",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-14",
+    "open": "417.7700",
+    "high": "424.0400",
+    "low": "417.5200",
+    "close": "419.1400",
+    "volume": "16653086",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-11",
+    "open": "416.1350",
+    "high": "417.1300",
+    "low": "413.2500",
+    "close": "416.3200",
+    "volume": "14144944",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-10",
+    "open": "415.2250",
+    "high": "417.3500",
+    "low": "413.1500",
+    "close": "415.8400",
+    "volume": "13848376",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-09",
+    "open": "415.8600",
+    "high": "420.3800",
+    "low": "414.3000",
+    "close": "417.4600",
+    "volume": "14974257",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-08",
+    "open": "410.9000",
+    "high": "415.6600",
+    "low": "408.1700",
+    "close": "414.7100",
+    "volume": "19229261",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-07",
+    "open": "416.0000",
+    "high": "417.1100",
+    "low": "409.0000",
+    "close": "409.5400",
+    "volume": "20919761",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-04",
+    "open": "418.2400",
+    "high": "419.7500",
+    "low": "414.9700",
+    "close": "416.0600",
+    "volume": "19190913",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-03",
+    "open": "417.6300",
+    "high": "419.5500",
+    "low": "414.2900",
+    "close": "416.5400",
+    "volume": "13686421",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-02",
+    "open": "422.5800",
+    "high": "422.8200",
+    "low": "416.7100",
+    "close": "417.1300",
+    "volume": "16582257",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-10-01",
+    "open": "428.4500",
+    "high": "428.4800",
+    "low": "418.8100",
+    "close": "420.6900",
+    "volume": "19092945",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-30",
+    "open": "428.2100",
+    "high": "430.4200",
+    "low": "425.3700",
+    "close": "430.3000",
+    "volume": "16854606",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-27",
+    "open": "431.5200",
+    "high": "431.8500",
+    "low": "427.4700",
+    "close": "428.0200",
+    "volume": "14896131",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-26",
+    "open": "435.0850",
+    "high": "435.3000",
+    "low": "429.1300",
+    "close": "431.3100",
+    "volume": "14492044",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-25",
+    "open": "429.8300",
+    "high": "433.1190",
+    "low": "428.5700",
+    "close": "432.1100",
+    "volume": "13396364",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-24",
+    "open": "433.0000",
+    "high": "433.3500",
+    "low": "426.1000",
+    "close": "429.1700",
+    "volume": "17015754",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-23",
+    "open": "434.2800",
+    "high": "436.4600",
+    "low": "430.3889",
+    "close": "433.5100",
+    "volume": "15128891",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-20",
+    "open": "437.2200",
+    "high": "439.2400",
+    "low": "434.2200",
+    "close": "435.2700",
+    "volume": "55167106",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-19",
+    "open": "441.2250",
+    "high": "441.5000",
+    "low": "436.9000",
+    "close": "438.6900",
+    "volume": "21706559",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-18",
+    "open": "435.0000",
+    "high": "436.0300",
+    "low": "430.4100",
+    "close": "430.8100",
+    "volume": "18898042",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-17",
+    "open": "440.2300",
+    "high": "441.8500",
+    "low": "432.2700",
+    "close": "435.1500",
+    "volume": "18874231",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-16",
+    "open": "430.6000",
+    "high": "433.5300",
+    "low": "428.2200",
+    "close": "431.3400",
+    "volume": "13834697",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-13",
+    "open": "425.8250",
+    "high": "431.8300",
+    "low": "425.4600",
+    "close": "430.5900",
+    "volume": "15874555",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-12",
+    "open": "423.3100",
+    "high": "427.3692",
+    "low": "419.7500",
+    "close": "427.0000",
+    "volume": "17418759",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-11",
+    "open": "415.5000",
+    "high": "423.9900",
+    "low": "409.5800",
+    "close": "423.0400",
+    "volume": "19266923",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-10",
+    "open": "408.2000",
+    "high": "416.3300",
+    "low": "407.7000",
+    "close": "414.2000",
+    "volume": "19594287",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-09",
+    "open": "407.2400",
+    "high": "408.6500",
+    "low": "402.1500",
+    "close": "405.7200",
+    "volume": "15295134",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-06",
+    "open": "409.0600",
+    "high": "410.6500",
+    "low": "400.8000",
+    "close": "401.7000",
+    "volume": "19609526",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-05",
+    "open": "407.6200",
+    "high": "413.1000",
+    "low": "406.1300",
+    "close": "408.3900",
+    "volume": "14195516",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-04",
+    "open": "405.9100",
+    "high": "411.2400",
+    "low": "404.3700",
+    "close": "408.9000",
+    "volume": "14886710",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-09-03",
+    "open": "417.9100",
+    "high": "419.8800",
+    "low": "407.0300",
+    "close": "409.4400",
+    "volume": "20313603",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-08-30",
+    "open": "415.6000",
+    "high": "417.4900",
+    "low": "412.1300",
+    "close": "417.1400",
+    "volume": "24308324",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-08-29",
+    "open": "414.9400",
+    "high": "422.0500",
+    "low": "410.6000",
+    "close": "413.1200",
+    "volume": "17045241",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-08-28",
+    "open": "414.8800",
+    "high": "415.0000",
+    "low": "407.3100",
+    "close": "410.6000",
+    "volume": "14882660",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-08-27",
+    "open": "412.8600",
+    "high": "414.3600",
+    "low": "410.2500",
+    "close": "413.8400",
+    "volume": "13492911",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-08-26",
+    "open": "416.3650",
+    "high": "417.2799",
+    "low": "411.3400",
+    "close": "413.4900",
+    "volume": "13152830",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-08-23",
+    "open": "416.9800",
+    "high": "419.2600",
+    "low": "412.0900",
+    "close": "416.7900",
+    "volume": "18493784",
+    "symbol": "MSFT"
+  },
+  {
+    "date": "2024-08-22",
+    "open": "424.3600",
+    "high": "426.7899",
+    "low": "414.6100",
+    "close": "415.5500",
+    "volume": "19361901",
+    "symbol": "MSFT"
+  }
+]
+[2024-11-19T06:31:05.322+0000] {python.py:237} INFO - Done. Returned value was: [{'date': '2024-11-18', 'open': '414.8700', 'high': '418.4037', 'low': '412.1000', 'close': '415.7600', 'volume': '24742013', 'symbol': 'MSFT'}, {'date': '2024-11-15', 'open': '419.8200', 'high': '422.8000', 'low': '413.6400', 'close': '415.0000', 'volume': '28247644', 'symbol': 'MSFT'}, {'date': '2024-11-14', 'open': '425.0000', 'high': '428.1700', 'low': '420.0000', 'close': '426.8900', 'volume': '30246881', 'symbol': 'MSFT'}, {'date': '2024-11-13', 'open': '421.6400', 'high': '429.3250', 'low': '418.2100', 'close': '425.2000', 'volume': '21502185', 'symbol': 'MSFT'}, {'date': '2024-11-12', 'open': '418.2500', 'high': '424.4400', 'low': '417.2000', 'close': '423.0300', 'volume': '19401204', 'symbol': 'MSFT'}, {'date': '2024-11-11', 'open': '422.5150', 'high': '424.8100', 'low': '416.0000', 'close': '418.0100', 'volume': '24503321', 'symbol': 'MSFT'}, {'date': '2024-11-08', 'open': '425.3200', 'high': '426.5000', 'low': '421.7800', 'close': '422.5400', 'volume': '16891414', 'symbol': 'MSFT'}, {'date': '2024-11-07', 'open': '421.2800', 'high': '426.8500', 'low': '419.8800', 'close': '425.4300', 'volume': '19901782', 'symbol': 'MSFT'}, {'date': '2024-11-06', 'open': '412.4200', 'high': '420.4500', 'low': '410.5200', 'close': '420.1800', 'volume': '26681842', 'symbol': 'MSFT'}, {'date': '2024-11-05', 'open': '408.3700', 'high': '414.9000', 'low': '408.0800', 'close': '411.4600', 'volume': '17626011', 'symbol': 'MSFT'}, {'date': '2024-11-04', 'open': '409.8000', 'high': '410.4150', 'low': '405.5713', 'close': '408.4600', 'volume': '19672286', 'symbol': 'MSFT'}, {'date': '2024-11-01', 'open': '409.0100', 'high': '415.5000', 'low': '407.5000', 'close': '410.3700', 'volume': '24230442', 'symbol': 'MSFT'}, {'date': '2024-10-31', 'open': '415.3600', 'high': '416.1600', 'low': '406.3000', 'close': '406.3500', 'volume': '53970981', 'symbol': 'MSFT'}, {'date': '2024-10-30', 'open': '437.4350', 'high': '438.5000', 'low': '432.1000', 'close': '432.5300', 'volume': '29749149', 'symbol': 'MSFT'}, {'date': '2024-10-29', 'open': '428.0000', 'high': '433.1700', 'low': '425.8001', 'close': '431.9500', 'volume': '17644080', 'symbol': 'MSFT'}, {'date': '2024-10-28', 'open': '431.6550', 'high': '431.9400', 'low': '426.3000', 'close': '426.5900', 'volume': '14882444', 'symbol': 'MSFT'}, {'date': '2024-10-25', 'open': '426.7600', 'high': '432.5200', 'low': '426.5650', 'close': '428.1500', 'volume': '16899064', 'symbol': 'MSFT'}, {'date': '2024-10-24', 'open': '425.3250', 'high': '425.9782', 'low': '422.4000', 'close': '424.7300', 'volume': '13581631', 'symbol': 'MSFT'}, {'date': '2024-10-23', 'open': '430.8550', 'high': '431.0800', 'low': '422.5300', 'close': '424.6000', 'volume': '19654379', 'symbol': 'MSFT'}, {'date': '2024-10-22', 'open': '418.4900', 'high': '430.5793', 'low': '418.0400', 'close': '427.5100', 'volume': '25482197', 'symbol': 'MSFT'}, {'date': '2024-10-21', 'open': '416.1200', 'high': '418.9600', 'low': '413.7501', 'close': '418.7800', 'volume': '14206115', 'symbol': 'MSFT'}, {'date': '2024-10-18', 'open': '417.1400', 'high': '419.6500', 'low': '416.2601', 'close': '418.1600', 'volume': '17145317', 'symbol': 'MSFT'}, {'date': '2024-10-17', 'open': '422.3600', 'high': '422.5000', 'low': '415.5900', 'close': '416.7200', 'volume': '14820004', 'symbol': 'MSFT'}, {'date': '2024-10-16', 'open': '415.1700', 'high': '416.3600', 'low': '410.4800', 'close': '416.1200', 'volume': '15508932', 'symbol': 'MSFT'}, {'date': '2024-10-15', 'open': '422.1800', 'high': '422.4800', 'low': '415.2600', 'close': '418.7400', 'volume': '18900201', 'symbol': 'MSFT'}, {'date': '2024-10-14', 'open': '417.7700', 'high': '424.0400', 'low': '417.5200', 'close': '419.1400', 'volume': '16653086', 'symbol': 'MSFT'}, {'date': '2024-10-11', 'open': '416.1350', 'high': '417.1300', 'low': '413.2500', 'close': '416.3200', 'volume': '14144944', 'symbol': 'MSFT'}, {'date': '2024-10-10', 'open': '415.2250', 'high': '417.3500', 'low': '413.1500', 'close': '415.8400', 'volume': '13848376', 'symbol': 'MSFT'}, {'date': '2024-10-09', 'open': '415.8600', 'high': '420.3800', 'low': '414.3000', 'close': '417.4600', 'volume': '14974257', 'symbol': 'MSFT'}, {'date': '2024-10-08', 'open': '410.9000', 'high': '415.6600', 'low': '408.1700', 'close': '414.7100', 'volume': '19229261', 'symbol': 'MSFT'}, {'date': '2024-10-07', 'open': '416.0000', 'high': '417.1100', 'low': '409.0000', 'close': '409.5400', 'volume': '20919761', 'symbol': 'MSFT'}, {'date': '2024-10-04', 'open': '418.2400', 'high': '419.7500', 'low': '414.9700', 'close': '416.0600', 'volume': '19190913', 'symbol': 'MSFT'}, {'date': '2024-10-03', 'open': '417.6300', 'high': '419.5500', 'low': '414.2900', 'close': '416.5400', 'volume': '13686421', 'symbol': 'MSFT'}, {'date': '2024-10-02', 'open': '422.5800', 'high': '422.8200', 'low': '416.7100', 'close': '417.1300', 'volume': '16582257', 'symbol': 'MSFT'}, {'date': '2024-10-01', 'open': '428.4500', 'high': '428.4800', 'low': '418.8100', 'close': '420.6900', 'volume': '19092945', 'symbol': 'MSFT'}, {'date': '2024-09-30', 'open': '428.2100', 'high': '430.4200', 'low': '425.3700', 'close': '430.3000', 'volume': '16854606', 'symbol': 'MSFT'}, {'date': '2024-09-27', 'open': '431.5200', 'high': '431.8500', 'low': '427.4700', 'close': '428.0200', 'volume': '14896131', 'symbol': 'MSFT'}, {'date': '2024-09-26', 'open': '435.0850', 'high': '435.3000', 'low': '429.1300', 'close': '431.3100', 'volume': '14492044', 'symbol': 'MSFT'}, {'date': '2024-09-25', 'open': '429.8300', 'high': '433.1190', 'low': '428.5700', 'close': '432.1100', 'volume': '13396364', 'symbol': 'MSFT'}, {'date': '2024-09-24', 'open': '433.0000', 'high': '433.3500', 'low': '426.1000', 'close': '429.1700', 'volume': '17015754', 'symbol': 'MSFT'}, {'date': '2024-09-23', 'open': '434.2800', 'high': '436.4600', 'low': '430.3889', 'close': '433.5100', 'volume': '15128891', 'symbol': 'MSFT'}, {'date': '2024-09-20', 'open': '437.2200', 'high': '439.2400', 'low': '434.2200', 'close': '435.2700', 'volume': '55167106', 'symbol': 'MSFT'}, {'date': '2024-09-19', 'open': '441.2250', 'high': '441.5000', 'low': '436.9000', 'close': '438.6900', 'volume': '21706559', 'symbol': 'MSFT'}, {'date': '2024-09-18', 'open': '435.0000', 'high': '436.0300', 'low': '430.4100', 'close': '430.8100', 'volume': '18898042', 'symbol': 'MSFT'}, {'date': '2024-09-17', 'open': '440.2300', 'high': '441.8500', 'low': '432.2700', 'close': '435.1500', 'volume': '18874231', 'symbol': 'MSFT'}, {'date': '2024-09-16', 'open': '430.6000', 'high': '433.5300', 'low': '428.2200', 'close': '431.3400', 'volume': '13834697', 'symbol': 'MSFT'}, {'date': '2024-09-13', 'open': '425.8250', 'high': '431.8300', 'low': '425.4600', 'close': '430.5900', 'volume': '15874555', 'symbol': 'MSFT'}, {'date': '2024-09-12', 'open': '423.3100', 'high': '427.3692', 'low': '419.7500', 'close': '427.0000', 'volume': '17418759', 'symbol': 'MSFT'}, {'date': '2024-09-11', 'open': '415.5000', 'high': '423.9900', 'low': '409.5800', 'close': '423.0400', 'volume': '19266923', 'symbol': 'MSFT'}, {'date': '2024-09-10', 'open': '408.2000', 'high': '416.3300', 'low': '407.7000', 'close': '414.2000', 'volume': '19594287', 'symbol': 'MSFT'}, {'date': '2024-09-09', 'open': '407.2400', 'high': '408.6500', 'low': '402.1500', 'close': '405.7200', 'volume': '15295134', 'symbol': 'MSFT'}, {'date': '2024-09-06', 'open': '409.0600', 'high': '410.6500', 'low': '400.8000', 'close': '401.7000', 'volume': '19609526', 'symbol': 'MSFT'}, {'date': '2024-09-05', 'open': '407.6200', 'high': '413.1000', 'low': '406.1300', 'close': '408.3900', 'volume': '14195516', 'symbol': 'MSFT'}, {'date': '2024-09-04', 'open': '405.9100', 'high': '411.2400', 'low': '404.3700', 'close': '408.9000', 'volume': '14886710', 'symbol': 'MSFT'}, {'date': '2024-09-03', 'open': '417.9100', 'high': '419.8800', 'low': '407.0300', 'close': '409.4400', 'volume': '20313603', 'symbol': 'MSFT'}, {'date': '2024-08-30', 'open': '415.6000', 'high': '417.4900', 'low': '412.1300', 'close': '417.1400', 'volume': '24308324', 'symbol': 'MSFT'}, {'date': '2024-08-29', 'open': '414.9400', 'high': '422.0500', 'low': '410.6000', 'close': '413.1200', 'volume': '17045241', 'symbol': 'MSFT'}, {'date': '2024-08-28', 'open': '414.8800', 'high': '415.0000', 'low': '407.3100', 'close': '410.6000', 'volume': '14882660', 'symbol': 'MSFT'}, {'date': '2024-08-27', 'open': '412.8600', 'high': '414.3600', 'low': '410.2500', 'close': '413.8400', 'volume': '13492911', 'symbol': 'MSFT'}, {'date': '2024-08-26', 'open': '416.3650', 'high': '417.2799', 'low': '411.3400', 'close': '413.4900', 'volume': '13152830', 'symbol': 'MSFT'}, {'date': '2024-08-23', 'open': '416.9800', 'high': '419.2600', 'low': '412.0900', 'close': '416.7900', 'volume': '18493784', 'symbol': 'MSFT'}, {'date': '2024-08-22', 'open': '424.3600', 'high': '426.7899', 'low': '414.6100', 'close': '415.5500', 'volume': '19361901', 'symbol': 'MSFT'}]
+[2024-11-19T06:31:05.375+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-19T06:31:05.696+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=stockprices_v2_decorator, task_id=transform, run_id=scheduled__2024-11-19T05:00:00+00:00, execution_date=20241119T050000, start_date=20241119T063059, end_date=20241119T063105
+[2024-11-19T06:31:06.052+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-11-19T06:31:06.168+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-19T06:31:06.218+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

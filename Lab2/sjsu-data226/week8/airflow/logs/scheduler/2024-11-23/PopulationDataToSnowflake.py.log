@@ -1,0 +1,917 @@
+[2024-11-23T00:12:20.433+0000] {processor.py:161} INFO - Started process (PID=64756) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:12:20.440+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:12:20.475+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:12:20.464+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:12:20.965+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:12:22.314+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:12:22.303+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:12:23.214+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:12:23.211+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:12:24.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 3.881 seconds
+[2024-11-23T00:13:27.053+0000] {processor.py:161} INFO - Started process (PID=64824) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:13:27.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:13:27.068+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:13:27.067+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:13:27.146+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:13:27.256+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:13:27.256+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:13:27.296+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:13:27.296+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:13:27.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.301 seconds
+[2024-11-23T00:13:58.017+0000] {processor.py:161} INFO - Started process (PID=64887) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:13:58.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:13:58.025+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:13:58.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:13:58.047+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:13:58.086+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:13:58.086+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:13:58.122+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:13:58.122+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:13:58.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.135 seconds
+[2024-11-23T00:14:28.316+0000] {processor.py:161} INFO - Started process (PID=64949) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:14:28.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:14:28.320+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:14:28.320+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:14:28.336+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:14:28.356+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:14:28.355+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:14:28.380+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:14:28.380+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:14:28.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.089 seconds
+[2024-11-23T00:14:58.678+0000] {processor.py:161} INFO - Started process (PID=65010) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:14:58.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:14:58.682+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:14:58.681+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:14:58.694+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:14:58.710+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:14:58.710+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:14:58.750+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:14:58.749+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:14:58.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.107 seconds
+[2024-11-23T00:15:29.373+0000] {processor.py:161} INFO - Started process (PID=65074) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:15:29.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:15:29.376+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:15:29.376+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:15:29.390+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:15:29.404+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:15:29.404+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:15:29.418+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:15:29.418+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:15:29.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.062 seconds
+[2024-11-23T00:15:59.705+0000] {processor.py:161} INFO - Started process (PID=65128) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:15:59.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:15:59.709+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:15:59.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:15:59.725+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:15:59.767+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:15:59.767+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:15:59.789+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:15:59.789+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:15:59.810+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.112 seconds
+[2024-11-23T00:16:29.907+0000] {processor.py:161} INFO - Started process (PID=65190) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:16:29.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:16:29.911+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:16:29.910+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:16:29.944+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:16:29.991+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:16:29.990+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:16:30.016+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:16:30.016+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:16:30.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.137 seconds
+[2024-11-23T00:17:00.174+0000] {processor.py:161} INFO - Started process (PID=65252) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:17:00.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:17:00.185+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:17:00.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:17:00.224+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:17:00.275+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:17:00.275+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:17:00.333+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:17:00.332+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:17:00.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.202 seconds
+[2024-11-23T00:17:31.226+0000] {processor.py:161} INFO - Started process (PID=65315) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:17:31.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:17:31.233+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:17:31.232+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:17:31.260+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:17:31.310+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:17:31.310+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:17:31.340+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:17:31.340+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:17:31.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.148 seconds
+[2024-11-23T00:18:01.602+0000] {processor.py:161} INFO - Started process (PID=65378) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:18:01.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:18:01.611+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:18:01.610+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:18:01.663+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:18:01.762+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:18:01.762+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:18:01.823+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:18:01.822+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:18:01.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.305 seconds
+[2024-11-23T00:18:32.803+0000] {processor.py:161} INFO - Started process (PID=65441) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:18:32.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:18:32.819+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:18:32.818+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:18:32.854+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:18:32.921+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:18:32.921+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:18:32.960+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:18:32.960+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:18:32.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.202 seconds
+[2024-11-23T00:19:03.809+0000] {processor.py:161} INFO - Started process (PID=65504) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:19:03.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:19:03.814+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:19:03.813+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:19:03.825+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:19:03.845+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:19:03.845+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:19:03.860+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:19:03.860+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:19:03.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.074 seconds
+[2024-11-23T00:19:34.084+0000] {processor.py:161} INFO - Started process (PID=65566) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:19:34.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:19:34.089+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:19:34.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:19:34.107+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:19:34.128+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:19:34.128+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:19:34.146+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:19:34.146+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:19:34.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.091 seconds
+[2024-11-23T00:20:05.040+0000] {processor.py:161} INFO - Started process (PID=65629) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:20:05.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:20:05.046+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:20:05.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:20:05.085+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:20:05.146+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:20:05.146+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:20:05.196+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:20:05.195+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:20:05.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.204 seconds
+[2024-11-23T00:20:35.727+0000] {processor.py:161} INFO - Started process (PID=65692) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:20:35.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:20:35.735+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:20:35.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:20:35.759+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:20:35.808+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:20:35.808+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:20:35.842+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:20:35.841+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:20:35.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.144 seconds
+[2024-11-23T00:21:06.708+0000] {processor.py:161} INFO - Started process (PID=65754) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:21:06.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:21:06.712+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:21:06.711+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:21:06.726+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:21:06.741+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:21:06.741+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:21:06.755+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:21:06.755+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:21:06.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.068 seconds
+[2024-11-23T00:21:37.564+0000] {processor.py:161} INFO - Started process (PID=65818) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:21:37.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:21:37.569+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:21:37.568+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:21:37.611+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:21:37.697+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:21:37.697+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:21:37.742+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:21:37.742+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:21:37.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.206 seconds
+[2024-11-23T00:22:08.086+0000] {processor.py:161} INFO - Started process (PID=65880) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:22:08.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:22:08.099+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:22:08.099+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:22:08.141+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:22:08.218+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:22:08.217+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:22:08.272+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:22:08.272+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:22:08.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.244 seconds
+[2024-11-23T00:22:38.621+0000] {processor.py:161} INFO - Started process (PID=65945) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:22:38.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:22:38.624+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:22:38.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:22:38.638+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:22:38.663+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:22:38.662+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:22:38.694+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:22:38.694+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:22:38.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.110 seconds
+[2024-11-23T00:23:09.166+0000] {processor.py:161} INFO - Started process (PID=66008) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:23:09.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:23:09.170+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:23:09.169+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:23:09.184+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:23:09.217+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:23:09.217+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:23:09.238+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:23:09.238+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:23:09.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.096 seconds
+[2024-11-23T00:23:40.055+0000] {processor.py:161} INFO - Started process (PID=66071) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:23:40.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:23:40.062+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:23:40.061+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:23:40.098+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:23:40.150+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:23:40.149+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:23:40.184+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:23:40.184+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:23:40.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.165 seconds
+[2024-11-23T00:24:11.234+0000] {processor.py:161} INFO - Started process (PID=66135) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:24:11.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:24:11.239+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:24:11.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:24:11.266+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:24:11.319+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:24:11.319+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:24:11.358+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:24:11.358+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:24:11.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.162 seconds
+[2024-11-23T00:24:41.623+0000] {processor.py:161} INFO - Started process (PID=66197) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:24:41.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:24:41.629+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:24:41.628+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:24:41.651+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:24:41.699+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:24:41.698+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:24:41.723+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:24:41.723+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:24:41.742+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.130 seconds
+[2024-11-23T00:25:12.188+0000] {processor.py:161} INFO - Started process (PID=66260) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:25:12.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:25:12.198+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:25:12.198+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:25:12.242+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:25:12.311+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:25:12.311+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:25:12.383+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:25:12.383+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:25:12.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.249 seconds
+[2024-11-23T00:25:42.838+0000] {processor.py:161} INFO - Started process (PID=66324) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:25:42.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:25:42.841+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:25:42.841+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:25:42.857+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:25:42.873+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:25:42.873+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:25:42.888+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:25:42.888+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:25:42.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.073 seconds
+[2024-11-23T00:26:13.492+0000] {processor.py:161} INFO - Started process (PID=66387) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:26:13.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:26:13.498+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:26:13.498+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:26:13.511+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:26:13.531+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:26:13.530+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:26:13.549+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:26:13.549+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:26:13.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.080 seconds
+[2024-11-23T00:26:44.476+0000] {processor.py:161} INFO - Started process (PID=66449) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:26:44.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:26:44.485+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:26:44.484+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:26:44.498+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:26:44.517+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:26:44.516+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:26:44.537+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:26:44.537+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:26:44.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.084 seconds
+[2024-11-23T00:27:14.733+0000] {processor.py:161} INFO - Started process (PID=66512) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:27:14.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:27:14.737+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:27:14.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:27:14.753+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:27:14.778+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:27:14.778+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:27:14.798+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:27:14.798+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:27:14.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.091 seconds
+[2024-11-23T00:27:45.208+0000] {processor.py:161} INFO - Started process (PID=66575) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:27:45.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:27:45.217+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:27:45.214+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:27:45.266+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:27:45.324+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:27:45.324+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:27:45.381+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:27:45.380+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:27:45.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.225 seconds
+[2024-11-23T00:28:15.857+0000] {processor.py:161} INFO - Started process (PID=66638) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:28:15.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:28:15.861+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:28:15.861+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:28:15.887+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:28:15.933+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:28:15.932+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:28:15.974+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:28:15.974+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:28:16.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.161 seconds
+[2024-11-23T00:28:46.863+0000] {processor.py:161} INFO - Started process (PID=66701) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:28:46.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:28:46.866+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:28:46.866+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:28:46.878+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:28:46.895+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:28:46.895+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:28:46.914+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:28:46.914+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:28:46.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.075 seconds
+[2024-11-23T00:29:17.143+0000] {processor.py:161} INFO - Started process (PID=66764) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:29:17.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:29:17.146+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:29:17.146+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:29:17.156+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:29:17.169+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:29:17.169+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:29:17.181+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:29:17.181+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:29:17.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.052 seconds
+[2024-11-23T00:29:47.385+0000] {processor.py:161} INFO - Started process (PID=66829) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:29:47.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:29:47.388+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:29:47.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:29:47.400+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:29:47.414+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:29:47.414+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:29:47.429+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:29:47.429+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:29:47.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.060 seconds
+[2024-11-23T00:30:17.667+0000] {processor.py:161} INFO - Started process (PID=66890) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:30:17.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:30:17.671+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:30:17.670+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:30:17.711+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:30:17.805+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:30:17.805+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:30:17.846+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:30:17.846+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:30:17.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.230 seconds
+[2024-11-23T00:30:48.848+0000] {processor.py:161} INFO - Started process (PID=66953) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:30:48.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:30:48.855+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:30:48.855+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:30:48.900+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:30:48.957+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:30:48.957+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:30:48.989+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:30:48.989+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:30:49.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.192 seconds
+[2024-11-23T00:31:19.348+0000] {processor.py:161} INFO - Started process (PID=67017) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:31:19.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:31:19.356+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:31:19.355+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:31:19.390+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:31:19.441+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:31:19.441+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:31:19.486+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:31:19.485+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:31:19.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.169 seconds
+[2024-11-23T00:31:49.880+0000] {processor.py:161} INFO - Started process (PID=67079) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:31:49.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:31:49.884+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:31:49.883+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:31:49.904+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:31:49.951+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:31:49.950+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:31:49.984+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:31:49.984+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:31:50.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.135 seconds
+[2024-11-23T00:32:20.518+0000] {processor.py:161} INFO - Started process (PID=67144) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:32:20.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:32:20.526+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:32:20.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:32:20.559+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:32:20.613+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:32:20.613+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:32:20.650+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:32:20.648+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:32:20.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.162 seconds
+[2024-11-23T00:32:51.064+0000] {processor.py:161} INFO - Started process (PID=67207) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:32:51.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:32:51.068+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:32:51.067+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:32:51.097+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:32:51.144+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:32:51.143+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:32:51.175+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:32:51.175+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:32:51.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.142 seconds
+[2024-11-23T00:33:21.316+0000] {processor.py:161} INFO - Started process (PID=67271) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:33:21.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:33:21.326+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:33:21.326+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:33:21.354+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:33:21.386+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:33:21.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:33:21.411+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:33:21.411+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:33:21.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.121 seconds
+[2024-11-23T00:33:51.685+0000] {processor.py:161} INFO - Started process (PID=67333) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:33:51.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:33:51.690+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:33:51.690+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:33:51.731+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:33:51.810+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:33:51.810+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:33:51.850+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:33:51.850+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:33:51.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.209 seconds
+[2024-11-23T00:34:22.671+0000] {processor.py:161} INFO - Started process (PID=67396) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:34:22.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:34:22.675+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:34:22.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:34:22.693+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:34:22.729+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:34:22.729+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:34:22.766+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:34:22.766+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:34:22.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.123 seconds
+[2024-11-23T00:34:53.088+0000] {processor.py:161} INFO - Started process (PID=67458) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:34:53.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:34:53.093+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:34:53.093+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:34:53.136+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:34:53.214+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:34:53.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:34:53.262+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:34:53.261+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:34:53.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.223 seconds
+[2024-11-23T00:35:23.974+0000] {processor.py:161} INFO - Started process (PID=67521) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:35:23.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:35:23.980+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:35:23.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:35:24.002+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:35:24.057+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:35:24.057+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:35:24.092+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:35:24.092+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:35:24.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.153 seconds
+[2024-11-23T00:35:54.809+0000] {processor.py:161} INFO - Started process (PID=67584) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:35:54.811+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:35:54.812+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:35:54.812+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:35:54.828+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:35:54.854+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:35:54.854+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:35:54.878+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:35:54.878+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:35:54.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.090 seconds
+[2024-11-23T00:36:25.284+0000] {processor.py:161} INFO - Started process (PID=67647) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:36:25.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:36:25.290+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:36:25.289+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:36:25.310+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:36:25.351+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:36:25.350+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:36:25.384+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:36:25.384+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:36:25.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.134 seconds
+[2024-11-23T00:36:55.995+0000] {processor.py:161} INFO - Started process (PID=67710) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:36:55.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:36:56.004+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:36:56.000+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:36:56.033+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:36:56.083+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:36:56.083+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:36:56.123+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:36:56.122+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:36:56.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.160 seconds
+[2024-11-23T00:37:26.715+0000] {processor.py:161} INFO - Started process (PID=67773) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:37:26.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:37:26.720+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:37:26.719+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:37:26.744+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:37:26.787+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:37:26.787+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:37:26.811+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:37:26.811+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:37:26.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.119 seconds
+[2024-11-23T00:37:57.417+0000] {processor.py:161} INFO - Started process (PID=67837) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:37:57.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:37:57.439+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:37:57.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:37:57.491+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:37:57.618+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:37:57.617+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:37:57.884+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:37:57.880+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:37:57.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.558 seconds
+[2024-11-23T00:38:28.694+0000] {processor.py:161} INFO - Started process (PID=67901) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:38:28.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:38:28.697+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:38:28.696+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:38:28.714+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:38:28.751+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:38:28.751+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:38:28.778+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:38:28.777+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:38:28.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.107 seconds
+[2024-11-23T00:38:59.871+0000] {processor.py:161} INFO - Started process (PID=67963) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:38:59.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:38:59.874+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:38:59.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:38:59.902+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:38:59.963+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:38:59.962+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:38:59.998+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:38:59.998+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:39:00.020+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.160 seconds
+[2024-11-23T00:39:31.128+0000] {processor.py:161} INFO - Started process (PID=68026) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:39:31.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:39:31.132+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:39:31.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:39:31.155+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:39:31.196+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:39:31.196+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:39:31.229+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:39:31.229+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:39:31.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.132 seconds
+[2024-11-23T00:40:03.770+0000] {processor.py:161} INFO - Started process (PID=68087) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:40:03.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:40:03.773+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:40:03.773+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:40:03.786+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:40:03.804+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:40:03.804+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:40:03.824+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:40:03.824+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:40:03.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.071 seconds
+[2024-11-23T00:40:35.049+0000] {processor.py:161} INFO - Started process (PID=68145) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:40:35.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:40:35.057+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:40:35.056+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:40:35.090+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:40:35.130+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:40:35.130+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:40:35.158+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:40:35.158+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:40:35.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.150 seconds
+[2024-11-23T00:41:06.197+0000] {processor.py:161} INFO - Started process (PID=68208) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:41:06.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:41:06.201+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:41:06.201+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:41:06.219+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:41:06.249+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:41:06.248+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:41:06.274+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:41:06.274+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:41:06.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.107 seconds
+[2024-11-23T00:41:37.803+0000] {processor.py:161} INFO - Started process (PID=68270) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:41:37.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:41:37.815+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:41:37.815+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:41:37.840+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:41:37.871+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:41:37.870+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:41:37.905+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:41:37.904+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:41:37.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.176 seconds
+[2024-11-23T00:42:08.518+0000] {processor.py:161} INFO - Started process (PID=68328) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:42:08.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:42:08.522+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:42:08.522+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:42:08.549+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:42:08.601+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:42:08.600+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:42:08.648+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:42:08.647+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:42:08.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.162 seconds
+[2024-11-23T00:42:38.888+0000] {processor.py:161} INFO - Started process (PID=68390) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:42:38.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:42:38.894+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:42:38.894+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:42:38.922+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:42:38.960+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:42:38.960+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:42:38.992+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:42:38.992+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:42:39.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.132 seconds
+[2024-11-23T00:43:10.246+0000] {processor.py:161} INFO - Started process (PID=68452) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:43:10.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:43:10.263+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:43:10.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:43:10.337+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:43:10.527+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:43:10.527+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:43:10.801+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:43:10.777+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:43:11.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 1.015 seconds
+[2024-11-23T00:43:42.185+0000] {processor.py:161} INFO - Started process (PID=68515) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:43:42.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:43:42.188+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:43:42.188+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:43:42.211+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:43:42.263+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:43:42.262+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:43:42.320+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:43:42.320+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:43:42.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.171 seconds
+[2024-11-23T00:44:12.957+0000] {processor.py:161} INFO - Started process (PID=68577) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:44:12.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:44:12.961+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:44:12.961+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:44:12.977+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:44:13.003+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:44:13.003+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:44:13.024+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:44:13.024+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:44:13.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.089 seconds
+[2024-11-23T00:44:43.304+0000] {processor.py:161} INFO - Started process (PID=68641) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:44:43.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:44:43.308+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:44:43.307+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:44:43.322+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:44:43.343+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:44:43.343+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:44:43.364+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:44:43.364+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:44:43.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.081 seconds
+[2024-11-23T00:45:14.027+0000] {processor.py:161} INFO - Started process (PID=68703) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:45:14.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:45:14.036+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:45:14.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:45:14.081+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:45:14.154+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:45:14.154+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:45:14.207+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:45:14.206+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:45:14.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.228 seconds
+[2024-11-23T00:45:45.304+0000] {processor.py:161} INFO - Started process (PID=68766) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:45:45.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:45:45.314+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:45:45.311+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:45:45.346+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:45:45.386+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:45:45.385+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:45:45.427+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:45:45.426+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:45:45.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.165 seconds
+[2024-11-23T00:46:15.780+0000] {processor.py:161} INFO - Started process (PID=68837) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:46:15.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:46:15.784+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:46:15.783+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:46:15.811+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:46:15.848+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:46:15.848+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:46:15.876+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:46:15.876+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:46:15.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.121 seconds
+[2024-11-23T00:46:46.622+0000] {processor.py:161} INFO - Started process (PID=68900) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:46:46.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:46:46.631+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:46:46.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:46:46.673+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:46:46.743+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:46:46.743+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:46:46.801+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:46:46.801+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:46:46.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.240 seconds
+[2024-11-23T00:47:17.811+0000] {processor.py:161} INFO - Started process (PID=68964) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:47:17.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:47:17.829+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:47:17.826+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:47:17.858+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:47:17.907+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:47:17.907+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:47:17.944+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:47:17.944+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:47:17.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.174 seconds
+[2024-11-23T00:47:48.523+0000] {processor.py:161} INFO - Started process (PID=69027) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:47:48.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:47:48.527+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:47:48.527+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:47:48.547+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:47:48.579+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:47:48.579+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:47:48.606+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:47:48.606+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:47:48.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.113 seconds
+[2024-11-23T00:48:19.257+0000] {processor.py:161} INFO - Started process (PID=69090) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:48:19.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:48:19.261+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:48:19.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:48:19.293+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:48:19.348+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:48:19.348+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:48:19.380+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:48:19.380+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:48:19.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.155 seconds
+[2024-11-23T00:48:49.825+0000] {processor.py:161} INFO - Started process (PID=69152) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:48:49.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:48:49.835+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:48:49.834+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:48:49.875+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:48:49.936+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:48:49.936+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:48:49.973+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:48:49.973+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:48:49.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.187 seconds
+[2024-11-23T00:49:20.759+0000] {processor.py:161} INFO - Started process (PID=69215) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:49:20.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:49:20.764+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:49:20.763+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:49:20.793+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:49:20.845+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:49:20.845+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:49:20.876+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:49:20.875+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:49:20.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.155 seconds
+[2024-11-23T00:49:51.494+0000] {processor.py:161} INFO - Started process (PID=69280) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:49:51.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:49:51.497+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:49:51.497+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:49:51.532+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:49:51.586+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:49:51.586+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:49:51.622+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:49:51.621+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:49:51.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.162 seconds
+[2024-11-23T00:50:22.570+0000] {processor.py:161} INFO - Started process (PID=69342) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:50:22.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:50:22.588+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:50:22.587+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:50:22.669+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:50:22.883+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:50:22.881+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:50:22.976+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:50:22.976+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:50:23.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.504 seconds
+[2024-11-23T00:50:54.058+0000] {processor.py:161} INFO - Started process (PID=69405) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:50:54.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:50:54.065+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:50:54.064+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:50:54.101+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:50:54.150+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:50:54.150+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:50:54.183+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:50:54.183+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:50:54.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.166 seconds
+[2024-11-23T00:51:25.269+0000] {processor.py:161} INFO - Started process (PID=69470) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:51:25.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:51:25.272+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:51:25.272+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:51:25.297+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:51:25.343+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:51:25.343+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:51:25.376+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:51:25.376+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:51:25.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.144 seconds
+[2024-11-23T00:51:55.680+0000] {processor.py:161} INFO - Started process (PID=69532) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:51:55.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:51:55.688+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:51:55.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:51:55.717+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:51:55.819+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:51:55.819+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:51:55.885+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:51:55.885+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:51:55.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.257 seconds
+[2024-11-23T00:52:26.048+0000] {processor.py:161} INFO - Started process (PID=69595) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:52:26.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:52:26.052+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:52:26.051+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:52:26.077+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:52:26.125+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:52:26.125+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:52:26.161+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:52:26.161+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:52:26.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.142 seconds
+[2024-11-23T00:52:57.040+0000] {processor.py:161} INFO - Started process (PID=69659) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:52:57.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:52:57.050+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:52:57.050+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:52:57.088+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:52:57.172+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:52:57.172+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:52:57.215+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:52:57.215+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:52:57.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.217 seconds
+[2024-11-23T00:53:27.503+0000] {processor.py:161} INFO - Started process (PID=69722) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:53:27.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:53:27.513+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:53:27.512+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:53:27.546+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:53:27.606+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:53:27.605+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:53:27.650+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:53:27.650+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:53:27.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.184 seconds
+[2024-11-23T00:53:58.791+0000] {processor.py:161} INFO - Started process (PID=69785) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:53:58.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:53:58.801+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:53:58.800+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:53:58.834+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:53:58.878+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:53:58.878+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:53:58.931+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:53:58.930+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:53:58.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.171 seconds
+[2024-11-23T00:54:29.585+0000] {processor.py:161} INFO - Started process (PID=69848) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:54:29.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:54:29.589+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:54:29.588+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:54:29.614+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:54:29.653+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:54:29.653+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:54:29.677+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:54:29.677+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:54:29.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.117 seconds
+[2024-11-23T00:56:57.071+0000] {processor.py:161} INFO - Started process (PID=69887) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:56:57.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:56:57.073+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:56:57.073+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:56:57.085+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:56:57.101+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:56:57.101+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:56:57.121+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:56:57.121+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:56:57.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.077 seconds
+[2024-11-23T00:57:28.239+0000] {processor.py:161} INFO - Started process (PID=69951) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:57:28.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:57:28.265+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:57:28.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:57:28.305+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:57:28.400+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:57:28.399+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:57:28.445+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:57:28.444+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:57:28.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.253 seconds
+[2024-11-23T00:57:59.096+0000] {processor.py:161} INFO - Started process (PID=70021) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:57:59.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:57:59.103+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:57:59.100+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:57:59.127+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:57:59.172+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:57:59.171+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:57:59.203+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:57:59.203+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:57:59.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.139 seconds
+[2024-11-23T00:58:29.755+0000] {processor.py:161} INFO - Started process (PID=70084) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:58:29.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:58:29.759+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:58:29.759+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:58:29.778+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:58:29.802+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:58:29.801+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:58:29.820+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:58:29.820+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:58:29.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.091 seconds
+[2024-11-23T00:59:00.480+0000] {processor.py:161} INFO - Started process (PID=70147) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:59:00.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:59:00.483+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:59:00.483+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:59:00.499+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:59:00.523+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:59:00.523+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:59:00.551+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:59:00.551+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:59:00.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.097 seconds
+[2024-11-23T00:59:30.716+0000] {processor.py:161} INFO - Started process (PID=70209) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:59:30.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T00:59:30.723+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:59:30.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:59:30.749+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T00:59:30.779+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:59:30.778+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T00:59:30.819+0000] {logging_mixin.py:188} INFO - [2024-11-23T00:59:30.819+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T00:59:30.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.177 seconds
+[2024-11-23T01:00:01.926+0000] {processor.py:161} INFO - Started process (PID=70273) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:00:01.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:00:01.931+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:00:01.931+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:00:01.967+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:00:02.100+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:00:02.100+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:00:02.162+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:00:02.162+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:00:02.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.292 seconds
+[2024-11-23T01:00:32.778+0000] {processor.py:161} INFO - Started process (PID=70336) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:00:32.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:00:32.782+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:00:32.782+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:00:32.798+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:00:32.815+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:00:32.815+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:00:32.838+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:00:32.837+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:00:32.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.081 seconds
+[2024-11-23T01:01:03.267+0000] {processor.py:161} INFO - Started process (PID=70399) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:01:03.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:01:03.271+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:01:03.270+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:01:03.288+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:01:03.311+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:01:03.311+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:01:03.347+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:01:03.346+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:01:03.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.130 seconds
+[2024-11-23T01:01:33.586+0000] {processor.py:161} INFO - Started process (PID=70462) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:01:33.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:01:33.592+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:01:33.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:01:33.606+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:01:33.629+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:01:33.629+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:01:33.647+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:01:33.646+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:01:33.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.086 seconds
+[2024-11-23T01:02:04.495+0000] {processor.py:161} INFO - Started process (PID=70525) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:02:04.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:02:04.501+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:02:04.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:02:04.523+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:02:04.576+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:02:04.576+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:02:04.610+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:02:04.610+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:02:04.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.144 seconds
+[2024-11-23T01:02:34.808+0000] {processor.py:161} INFO - Started process (PID=70588) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:02:34.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:02:34.811+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:02:34.810+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:02:34.822+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:02:34.836+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:02:34.836+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:02:34.852+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:02:34.852+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:02:34.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.064 seconds
+[2024-11-23T01:03:05.808+0000] {processor.py:161} INFO - Started process (PID=70651) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:03:05.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:03:05.811+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:03:05.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:03:05.825+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:03:05.839+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:03:05.839+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:03:05.855+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:03:05.855+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:03:05.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.069 seconds
+[2024-11-23T01:03:36.462+0000] {processor.py:161} INFO - Started process (PID=70714) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:03:36.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:03:36.465+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:03:36.465+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:03:36.478+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:03:36.493+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:03:36.493+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:03:36.510+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:03:36.510+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:03:36.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.071 seconds
+[2024-11-23T01:04:07.345+0000] {processor.py:161} INFO - Started process (PID=70775) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:04:07.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:04:07.351+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:04:07.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:04:07.360+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:04:07.378+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:04:07.378+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:04:07.396+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:04:07.396+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:04:07.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.072 seconds
+[2024-11-23T01:04:37.942+0000] {processor.py:161} INFO - Started process (PID=70832) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:04:37.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:04:37.951+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:04:37.949+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:04:37.997+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:04:38.085+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:04:38.085+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:04:38.145+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:04:38.144+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:04:38.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.282 seconds
+[2024-11-23T01:05:08.469+0000] {processor.py:161} INFO - Started process (PID=70896) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:05:08.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:05:08.475+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:05:08.475+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:05:08.487+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:05:08.502+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:05:08.502+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:05:08.518+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:05:08.518+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:05:08.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.067 seconds
+[2024-11-23T01:05:39.533+0000] {processor.py:161} INFO - Started process (PID=70960) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:05:39.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:05:39.538+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:05:39.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:05:39.590+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:05:39.639+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:05:39.639+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:05:39.673+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:05:39.673+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:05:39.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.172 seconds
+[2024-11-23T01:06:10.299+0000] {processor.py:161} INFO - Started process (PID=71023) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:06:10.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:06:10.303+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:06:10.303+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:06:10.315+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:06:10.355+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:06:10.355+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:06:10.371+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:06:10.371+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:06:10.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.094 seconds
+[2024-11-23T01:06:40.706+0000] {processor.py:161} INFO - Started process (PID=71085) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:06:40.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:06:40.711+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:06:40.711+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:06:40.724+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:06:40.754+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:06:40.754+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:06:40.779+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:06:40.779+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:06:40.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.104 seconds
+[2024-11-23T01:07:11.272+0000] {processor.py:161} INFO - Started process (PID=71149) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:07:11.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:07:11.281+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:07:11.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:07:11.334+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:07:11.413+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:07:11.413+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:07:11.468+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:07:11.468+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:07:11.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.239 seconds
+[2024-11-23T01:07:42.223+0000] {processor.py:161} INFO - Started process (PID=71212) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:07:42.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:07:42.228+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:07:42.227+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:07:42.253+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:07:42.309+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:07:42.309+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:07:42.354+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:07:42.354+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:07:42.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.163 seconds
+[2024-11-23T01:08:12.631+0000] {processor.py:161} INFO - Started process (PID=71274) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:08:12.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:08:12.637+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:08:12.637+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:08:12.669+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:08:12.721+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:08:12.721+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:08:12.755+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:08:12.754+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:08:12.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.160 seconds
+[2024-11-23T01:08:43.193+0000] {processor.py:161} INFO - Started process (PID=71339) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:08:43.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:08:43.201+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:08:43.200+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:08:43.241+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:08:43.297+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:08:43.297+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:08:43.339+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:08:43.339+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:08:43.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.188 seconds
+[2024-11-23T01:09:13.763+0000] {processor.py:161} INFO - Started process (PID=71403) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:09:13.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:09:13.769+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:09:13.769+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:09:13.801+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:09:13.864+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:09:13.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:09:13.905+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:09:13.904+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:09:13.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.170 seconds
+[2024-11-23T01:09:44.366+0000] {processor.py:161} INFO - Started process (PID=71467) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:09:44.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:09:44.372+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:09:44.371+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:09:44.396+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:09:44.429+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:09:44.429+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:09:44.455+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:09:44.455+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:09:44.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.114 seconds
+[2024-11-23T01:10:15.096+0000] {processor.py:161} INFO - Started process (PID=71530) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:10:15.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:10:15.108+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:10:15.107+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:10:15.158+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:10:15.205+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:10:15.205+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:10:15.247+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:10:15.247+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:10:15.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.205 seconds
+[2024-11-23T01:10:45.968+0000] {processor.py:161} INFO - Started process (PID=71593) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:10:45.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:10:45.972+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:10:45.971+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:10:45.990+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:10:46.014+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:10:46.014+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:10:46.033+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:10:46.033+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:10:46.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.086 seconds
+[2024-11-23T01:11:16.505+0000] {processor.py:161} INFO - Started process (PID=71656) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:11:16.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:11:16.508+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:11:16.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:11:16.520+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:11:16.543+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:11:16.542+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:11:16.560+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:11:16.559+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:11:16.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.081 seconds
+[2024-11-23T01:11:47.391+0000] {processor.py:161} INFO - Started process (PID=71718) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:11:47.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:11:47.394+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:11:47.393+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:11:47.415+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:11:47.441+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:11:47.440+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:11:47.467+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:11:47.467+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:11:47.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.103 seconds
+[2024-11-23T01:12:18.382+0000] {processor.py:161} INFO - Started process (PID=71781) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:12:18.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:12:18.386+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:12:18.385+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:12:18.398+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:12:18.412+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:12:18.412+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:12:18.427+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:12:18.427+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:12:18.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.065 seconds
+[2024-11-23T01:12:48.717+0000] {processor.py:161} INFO - Started process (PID=71844) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:12:48.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:12:48.727+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:12:48.727+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:12:48.750+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:12:48.789+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:12:48.789+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:12:48.808+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:12:48.808+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:12:48.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.114 seconds
+[2024-11-23T01:13:19.313+0000] {processor.py:161} INFO - Started process (PID=71908) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:13:19.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:13:19.316+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:13:19.316+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:13:19.333+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:13:19.728+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:13:19.726+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:13:19.784+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:13:19.784+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:13:19.839+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.531 seconds
+[2024-11-23T01:13:50.136+0000] {processor.py:161} INFO - Started process (PID=71967) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:13:50.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:13:50.142+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:13:50.142+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:13:50.167+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:13:50.215+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:13:50.215+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:13:50.246+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:13:50.245+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:13:50.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.143 seconds
+[2024-11-23T01:14:21.279+0000] {processor.py:161} INFO - Started process (PID=72031) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:14:21.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:14:21.285+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:14:21.284+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:14:21.315+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:14:21.373+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:14:21.373+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:14:21.401+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:14:21.401+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:14:21.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.160 seconds
+[2024-11-23T01:14:52.589+0000] {processor.py:161} INFO - Started process (PID=72093) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:14:52.591+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:14:52.596+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:14:52.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:14:52.625+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:14:52.671+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:14:52.671+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:14:52.703+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:14:52.703+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:14:52.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.152 seconds
+[2024-11-23T01:15:23.273+0000] {processor.py:161} INFO - Started process (PID=72158) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:15:23.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:15:23.279+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:15:23.279+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:15:23.310+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:15:23.355+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:15:23.355+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:15:23.388+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:15:23.388+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:15:23.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.146 seconds
+[2024-11-23T01:15:54.583+0000] {processor.py:161} INFO - Started process (PID=72222) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:15:54.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:15:54.586+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:15:54.586+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:15:54.620+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:15:54.691+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:15:54.690+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:15:54.722+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:15:54.721+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:15:54.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.175 seconds
+[2024-11-23T01:16:25.222+0000] {processor.py:161} INFO - Started process (PID=72285) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:16:25.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:16:25.226+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:16:25.225+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:16:25.258+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:16:25.321+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:16:25.320+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:16:25.357+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:16:25.357+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:16:25.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.171 seconds
+[2024-11-23T01:16:55.566+0000] {processor.py:161} INFO - Started process (PID=72348) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:16:55.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:16:55.573+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:16:55.573+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:16:55.610+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:16:55.689+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:16:55.689+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:16:55.789+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:16:55.788+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:16:55.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.283 seconds
+[2024-11-23T01:17:26.272+0000] {processor.py:161} INFO - Started process (PID=72412) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:17:26.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:17:26.275+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:17:26.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:17:26.301+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:17:26.335+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:17:26.335+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:17:26.356+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:17:26.356+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:17:26.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.109 seconds
+[2024-11-23T01:17:56.980+0000] {processor.py:161} INFO - Started process (PID=72474) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:17:56.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:17:56.984+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:17:56.983+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:17:57.013+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:17:57.073+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:17:57.073+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:17:57.117+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:17:57.117+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:17:57.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.193 seconds
+[2024-11-23T01:18:27.913+0000] {processor.py:161} INFO - Started process (PID=72537) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:18:27.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:18:27.925+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:18:27.924+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:18:27.956+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:18:28.033+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:18:28.033+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:18:28.087+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:18:28.086+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:18:28.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.221 seconds
+[2024-11-23T01:18:59.196+0000] {processor.py:161} INFO - Started process (PID=72600) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:18:59.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:18:59.200+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:18:59.199+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:18:59.227+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:18:59.277+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:18:59.277+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:18:59.310+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:18:59.310+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:18:59.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.147 seconds
+[2024-11-23T01:19:30.426+0000] {processor.py:161} INFO - Started process (PID=72663) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:19:30.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:19:30.430+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:19:30.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:19:30.463+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:19:30.519+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:19:30.519+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:19:30.556+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:19:30.556+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:19:30.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.169 seconds
+[2024-11-23T01:20:01.482+0000] {processor.py:161} INFO - Started process (PID=72727) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:20:01.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:20:01.486+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:20:01.486+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:20:01.517+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:20:01.559+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:20:01.559+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:20:01.587+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:20:01.587+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:20:01.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.134 seconds
+[2024-11-23T01:20:33.005+0000] {processor.py:161} INFO - Started process (PID=72789) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:20:33.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:20:33.609+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:20:33.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:20:34.919+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:20:36.772+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:20:36.689+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:20:37.725+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:20:37.725+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:20:38.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 5.707 seconds
+[2024-11-23T01:21:11.169+0000] {processor.py:161} INFO - Started process (PID=72852) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:21:11.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:21:11.854+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:21:11.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:21:12.571+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:21:13.073+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:21:13.073+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:21:13.395+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:21:13.395+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:21:13.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 2.284 seconds
+[2024-11-23T01:21:44.401+0000] {processor.py:161} INFO - Started process (PID=72921) to work on /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:21:44.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/PopulationDataToSnowflake.py for tasks to queue
+[2024-11-23T01:21:44.405+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:21:44.405+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:21:44.433+0000] {processor.py:840} INFO - DAG(s) 'PopulationDataToSnowflake' retrieved from /opt/airflow/dags/PopulationDataToSnowflake.py
+[2024-11-23T01:21:44.497+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:21:44.497+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-23T01:21:44.542+0000] {logging_mixin.py:188} INFO - [2024-11-23T01:21:44.542+0000] {dag.py:3954} INFO - Setting next_dagrun for PopulationDataToSnowflake to 2024-11-21 02:30:00+00:00, run_after=2024-11-22 02:30:00+00:00
+[2024-11-23T01:21:44.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/PopulationDataToSnowflake.py took 0.188 seconds

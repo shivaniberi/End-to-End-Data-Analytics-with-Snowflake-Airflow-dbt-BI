@@ -1,0 +1,37 @@
+services:
+  superset:
+    image: apache/superset:latest
+    container_name: superset
+    environment:
+      SUPERSET_SECRET_KEY: 'a_random_secret_key'
+      SQLALCHEMY_DATABASE_URI: 'postgresql+psycopg2://superset:superset@superset_db:5432/superset'
+      PYTHONPATH: '/app/pythonpath:/app/pythonpath_extra'
+    ports:
+      - "8088:8088"
+    networks:
+      - superset_network
+    volumes:
+      - ./superset_home:/app/superset_home
+      - ./requirements-local.txt:/app/pythonpath/requirements-local.txt
+    depends_on:
+      - superset_db
+    command: >
+      bash -c "pip install -r /app/pythonpath/requirements-local.txt &&
+               superset db upgrade &&
+               superset init &&
+               /usr/bin/run-server.sh"
+
+  superset_db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: superset
+      POSTGRES_USER: superset
+      POSTGRES_PASSWORD: superset
+    networks:
+      - superset_network
+    volumes:
+      - ./superset_postgres:/var/lib/postgresql/data
+      - ./requirements-local.txt:/app/pythonpath/requirements-local.txt
+networks:
+  superset_network:
+    driver: bridge

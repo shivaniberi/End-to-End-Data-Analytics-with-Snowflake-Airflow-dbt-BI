@@ -1,0 +1,150 @@
+[2024-11-17T04:42:02.508+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-17T04:42:02.592+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stockprices_v2_decorator.load scheduled__2024-11-17T04:30:00+00:00 [queued]>
+[2024-11-17T04:42:02.627+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stockprices_v2_decorator.load scheduled__2024-11-17T04:30:00+00:00 [queued]>
+[2024-11-17T04:42:02.628+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-11-17T04:42:02.645+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): load> on 2024-11-17 04:30:00+00:00
+[2024-11-17T04:42:02.681+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=2531) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-17T04:42:02.684+0000] {standard_task_runner.py:63} INFO - Started process 2537 to run task
+[2024-11-17T04:42:02.695+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'stockprices_v2_decorator', 'load', 'scheduled__2024-11-17T04:30:00+00:00', '--job-id', '643', '--raw', '--subdir', 'DAGS_FOLDER/stockprices_v2_decorator(3).py', '--cfg-path', '/tmp/tmp7_my8odr']
+[2024-11-17T04:42:02.699+0000] {standard_task_runner.py:91} INFO - Job 643: Subtask load
+[2024-11-17T04:42:02.779+0000] {task_command.py:426} INFO - Running <TaskInstance: stockprices_v2_decorator.load scheduled__2024-11-17T04:30:00+00:00 [running]> on host 3627cdc70e56
+[2024-11-17T04:42:03.246+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stockprices_v2_decorator' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2024-11-17T04:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-17T04:30:00+00:00'
+[2024-11-17T04:42:03.276+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-17T04:42:03.412+0000] {base.py:84} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2024-11-17T04:42:03.446+0000] {connection.py:399} INFO - Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: Linux-5.10.25-linuxkit-aarch64-with-glibc2.36
+[2024-11-17T04:42:03.491+0000] {connection.py:1239} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-11-17T04:42:05.399+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-17T04:42:05.405+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-15, Symbol=MSFT: Open=419.8200, High=422.8000, Low=413.6400, Close=415.0000, Volume=28247644
+[2024-11-17T04:42:06.990+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-15 and MSFT.
+[2024-11-17T04:42:07.041+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-14, Symbol=MSFT: Open=425.0000, High=428.1700, Low=420.0000, Close=426.8900, Volume=30246881
+[2024-11-17T04:42:09.597+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-14 and MSFT.
+[2024-11-17T04:42:09.622+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-13, Symbol=MSFT: Open=421.6400, High=429.3250, Low=418.2100, Close=425.2000, Volume=21502185
+[2024-11-17T04:42:10.966+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-13 and MSFT.
+[2024-11-17T04:42:11.000+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-12, Symbol=MSFT: Open=418.2500, High=424.4400, Low=417.2000, Close=423.0300, Volume=19401204
+[2024-11-17T04:42:12.054+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-12 and MSFT.
+[2024-11-17T04:42:12.059+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-11, Symbol=MSFT: Open=422.5150, High=424.8100, Low=416.0000, Close=418.0100, Volume=24503321
+[2024-11-17T04:42:13.159+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-11 and MSFT.
+[2024-11-17T04:42:13.160+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-08, Symbol=MSFT: Open=425.3200, High=426.5000, Low=421.7800, Close=422.5400, Volume=16891414
+[2024-11-17T04:42:14.301+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-08 and MSFT.
+[2024-11-17T04:42:14.304+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-07, Symbol=MSFT: Open=421.2800, High=426.8500, Low=419.8800, Close=425.4300, Volume=19901782
+[2024-11-17T04:42:15.822+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-07 and MSFT.
+[2024-11-17T04:42:15.825+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-06, Symbol=MSFT: Open=412.4200, High=420.4500, Low=410.5200, Close=420.1800, Volume=26681842
+[2024-11-17T04:42:17.303+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-06 and MSFT.
+[2024-11-17T04:42:17.307+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-05, Symbol=MSFT: Open=408.3700, High=414.9000, Low=408.0800, Close=411.4600, Volume=17626011
+[2024-11-17T04:42:18.957+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-05 and MSFT.
+[2024-11-17T04:42:18.960+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-04, Symbol=MSFT: Open=409.8000, High=410.4150, Low=405.5713, Close=408.4600, Volume=19672286
+[2024-11-17T04:42:20.402+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-04 and MSFT.
+[2024-11-17T04:42:20.405+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-11-01, Symbol=MSFT: Open=409.0100, High=415.5000, Low=407.5000, Close=410.3700, Volume=24230442
+[2024-11-17T04:42:21.924+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-11-01 and MSFT.
+[2024-11-17T04:42:21.928+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-31, Symbol=MSFT: Open=415.3600, High=416.1600, Low=406.3000, Close=406.3500, Volume=53970981
+[2024-11-17T04:42:23.394+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-31 and MSFT.
+[2024-11-17T04:42:23.400+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-30, Symbol=MSFT: Open=437.4350, High=438.5000, Low=432.1000, Close=432.5300, Volume=29749149
+[2024-11-17T04:42:24.839+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-30 and MSFT.
+[2024-11-17T04:42:24.842+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-29, Symbol=MSFT: Open=428.0000, High=433.1700, Low=425.8001, Close=431.9500, Volume=17644080
+[2024-11-17T04:42:26.203+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-29 and MSFT.
+[2024-11-17T04:42:26.209+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-28, Symbol=MSFT: Open=431.6550, High=431.9400, Low=426.3000, Close=426.5900, Volume=14882444
+[2024-11-17T04:42:27.652+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-28 and MSFT.
+[2024-11-17T04:42:27.653+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-25, Symbol=MSFT: Open=426.7600, High=432.5200, Low=426.5650, Close=428.1500, Volume=16899064
+[2024-11-17T04:42:29.057+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-25 and MSFT.
+[2024-11-17T04:42:29.059+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-24, Symbol=MSFT: Open=425.3250, High=425.9782, Low=422.4000, Close=424.7300, Volume=13581631
+[2024-11-17T04:42:30.636+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-24 and MSFT.
+[2024-11-17T04:42:30.638+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-23, Symbol=MSFT: Open=430.8550, High=431.0800, Low=422.5300, Close=424.6000, Volume=19654379
+[2024-11-17T04:42:32.191+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-23 and MSFT.
+[2024-11-17T04:42:32.197+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-22, Symbol=MSFT: Open=418.4900, High=430.5793, Low=418.0400, Close=427.5100, Volume=25482197
+[2024-11-17T04:42:33.642+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-22 and MSFT.
+[2024-11-17T04:42:33.643+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-21, Symbol=MSFT: Open=416.1200, High=418.9600, Low=413.7501, Close=418.7800, Volume=14206115
+[2024-11-17T04:42:35.072+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-21 and MSFT.
+[2024-11-17T04:42:35.073+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-18, Symbol=MSFT: Open=417.1400, High=419.6500, Low=416.2601, Close=418.1600, Volume=17145317
+[2024-11-17T04:42:36.515+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-18 and MSFT.
+[2024-11-17T04:42:36.516+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-17, Symbol=MSFT: Open=422.3600, High=422.5000, Low=415.5900, Close=416.7200, Volume=14820004
+[2024-11-17T04:42:37.906+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-17 and MSFT.
+[2024-11-17T04:42:37.911+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-16, Symbol=MSFT: Open=415.1700, High=416.3600, Low=410.4800, Close=416.1200, Volume=15508932
+[2024-11-17T04:42:39.398+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-16 and MSFT.
+[2024-11-17T04:42:39.403+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-15, Symbol=MSFT: Open=422.1800, High=422.4800, Low=415.2600, Close=418.7400, Volume=18900201
+[2024-11-17T04:42:40.961+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-15 and MSFT.
+[2024-11-17T04:42:40.963+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-14, Symbol=MSFT: Open=417.7700, High=424.0400, Low=417.5200, Close=419.1400, Volume=16653086
+[2024-11-17T04:42:42.402+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-14 and MSFT.
+[2024-11-17T04:42:42.405+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-11, Symbol=MSFT: Open=416.1350, High=417.1300, Low=413.2500, Close=416.3200, Volume=14144944
+[2024-11-17T04:42:43.806+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-11 and MSFT.
+[2024-11-17T04:42:43.809+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-10, Symbol=MSFT: Open=415.2250, High=417.3500, Low=413.1500, Close=415.8400, Volume=13848376
+[2024-11-17T04:42:45.234+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-10 and MSFT.
+[2024-11-17T04:42:45.236+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-09, Symbol=MSFT: Open=415.8600, High=420.3800, Low=414.3000, Close=417.4600, Volume=14974257
+[2024-11-17T04:42:46.776+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-09 and MSFT.
+[2024-11-17T04:42:46.785+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-08, Symbol=MSFT: Open=410.9000, High=415.6600, Low=408.1700, Close=414.7100, Volume=19229261
+[2024-11-17T04:42:48.193+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-08 and MSFT.
+[2024-11-17T04:42:48.203+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-07, Symbol=MSFT: Open=416.0000, High=417.1100, Low=409.0000, Close=409.5400, Volume=20919761
+[2024-11-17T04:42:49.714+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-07 and MSFT.
+[2024-11-17T04:42:49.719+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-04, Symbol=MSFT: Open=418.2400, High=419.7500, Low=414.9700, Close=416.0600, Volume=19190913
+[2024-11-17T04:42:51.147+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-04 and MSFT.
+[2024-11-17T04:42:51.150+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-03, Symbol=MSFT: Open=417.6300, High=419.5500, Low=414.2900, Close=416.5400, Volume=13686421
+[2024-11-17T04:42:52.600+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-03 and MSFT.
+[2024-11-17T04:42:52.608+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-02, Symbol=MSFT: Open=422.5800, High=422.8200, Low=416.7100, Close=417.1300, Volume=16582257
+[2024-11-17T04:42:54.020+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-02 and MSFT.
+[2024-11-17T04:42:54.026+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-10-01, Symbol=MSFT: Open=428.4500, High=428.4800, Low=418.8100, Close=420.6900, Volume=19092945
+[2024-11-17T04:42:55.490+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-10-01 and MSFT.
+[2024-11-17T04:42:55.492+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-30, Symbol=MSFT: Open=428.2100, High=430.4200, Low=425.3700, Close=430.3000, Volume=16854606
+[2024-11-17T04:42:56.905+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-30 and MSFT.
+[2024-11-17T04:42:56.911+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-27, Symbol=MSFT: Open=431.5200, High=431.8500, Low=427.4700, Close=428.0200, Volume=14896131
+[2024-11-17T04:42:58.349+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-27 and MSFT.
+[2024-11-17T04:42:58.351+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-26, Symbol=MSFT: Open=435.0850, High=435.3000, Low=429.1300, Close=431.3100, Volume=14492044
+[2024-11-17T04:42:59.861+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-26 and MSFT.
+[2024-11-17T04:42:59.864+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-25, Symbol=MSFT: Open=429.8300, High=433.1190, Low=428.5700, Close=432.1100, Volume=13396364
+[2024-11-17T04:43:01.345+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-25 and MSFT.
+[2024-11-17T04:43:01.348+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-24, Symbol=MSFT: Open=433.0000, High=433.3500, Low=426.1000, Close=429.1700, Volume=17015754
+[2024-11-17T04:43:02.769+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-24 and MSFT.
+[2024-11-17T04:43:02.774+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-23, Symbol=MSFT: Open=434.2800, High=436.4600, Low=430.3889, Close=433.5100, Volume=15128891
+[2024-11-17T04:43:04.294+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-23 and MSFT.
+[2024-11-17T04:43:04.296+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-20, Symbol=MSFT: Open=437.2200, High=439.2400, Low=434.2200, Close=435.2700, Volume=55167106
+[2024-11-17T04:43:05.807+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-20 and MSFT.
+[2024-11-17T04:43:05.809+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-19, Symbol=MSFT: Open=441.2250, High=441.5000, Low=436.9000, Close=438.6900, Volume=21706559
+[2024-11-17T04:43:07.424+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-19 and MSFT.
+[2024-11-17T04:43:07.433+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-18, Symbol=MSFT: Open=435.0000, High=436.0300, Low=430.4100, Close=430.8100, Volume=18898042
+[2024-11-17T04:43:08.855+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-18 and MSFT.
+[2024-11-17T04:43:08.858+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-17, Symbol=MSFT: Open=440.2300, High=441.8500, Low=432.2700, Close=435.1500, Volume=18874231
+[2024-11-17T04:43:10.336+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-17 and MSFT.
+[2024-11-17T04:43:10.337+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-16, Symbol=MSFT: Open=430.6000, High=433.5300, Low=428.2200, Close=431.3400, Volume=13834697
+[2024-11-17T04:43:11.742+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-16 and MSFT.
+[2024-11-17T04:43:11.747+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-13, Symbol=MSFT: Open=425.8250, High=431.8300, Low=425.4600, Close=430.5900, Volume=15874555
+[2024-11-17T04:43:13.175+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-13 and MSFT.
+[2024-11-17T04:43:13.176+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-12, Symbol=MSFT: Open=423.3100, High=427.3692, Low=419.7500, Close=427.0000, Volume=17418759
+[2024-11-17T04:43:14.640+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-12 and MSFT.
+[2024-11-17T04:43:14.643+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-11, Symbol=MSFT: Open=415.5000, High=423.9900, Low=409.5800, Close=423.0400, Volume=19266923
+[2024-11-17T04:43:16.201+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-11 and MSFT.
+[2024-11-17T04:43:16.210+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-10, Symbol=MSFT: Open=408.2000, High=416.3300, Low=407.7000, Close=414.2000, Volume=19594287
+[2024-11-17T04:43:17.596+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-10 and MSFT.
+[2024-11-17T04:43:17.599+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-09, Symbol=MSFT: Open=407.2400, High=408.6500, Low=402.1500, Close=405.7200, Volume=15295134
+[2024-11-17T04:43:18.980+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-09 and MSFT.
+[2024-11-17T04:43:18.985+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-06, Symbol=MSFT: Open=409.0600, High=410.6500, Low=400.8000, Close=401.7000, Volume=19609526
+[2024-11-17T04:43:20.418+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-06 and MSFT.
+[2024-11-17T04:43:20.420+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-05, Symbol=MSFT: Open=407.6200, High=413.1000, Low=406.1300, Close=408.3900, Volume=14195516
+[2024-11-17T04:43:21.896+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-05 and MSFT.
+[2024-11-17T04:43:21.904+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-04, Symbol=MSFT: Open=405.9100, High=411.2400, Low=404.3700, Close=408.9000, Volume=14886710
+[2024-11-17T04:43:23.396+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-04 and MSFT.
+[2024-11-17T04:43:23.397+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-09-03, Symbol=MSFT: Open=417.9100, High=419.8800, Low=407.0300, Close=409.4400, Volume=20313603
+[2024-11-17T04:43:24.850+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-09-03 and MSFT.
+[2024-11-17T04:43:24.856+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-30, Symbol=MSFT: Open=415.6000, High=417.4900, Low=412.1300, Close=417.1400, Volume=24308324
+[2024-11-17T04:43:26.358+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-30 and MSFT.
+[2024-11-17T04:43:26.363+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-29, Symbol=MSFT: Open=414.9400, High=422.0500, Low=410.6000, Close=413.1200, Volume=17045241
+[2024-11-17T04:43:27.765+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-29 and MSFT.
+[2024-11-17T04:43:27.767+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-28, Symbol=MSFT: Open=414.8800, High=415.0000, Low=407.3100, Close=410.6000, Volume=14882660
+[2024-11-17T04:43:29.249+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-28 and MSFT.
+[2024-11-17T04:43:29.250+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-27, Symbol=MSFT: Open=412.8600, High=414.3600, Low=410.2500, Close=413.8400, Volume=13492911
+[2024-11-17T04:43:30.767+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-27 and MSFT.
+[2024-11-17T04:43:30.769+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-26, Symbol=MSFT: Open=416.3650, High=417.2799, Low=411.3400, Close=413.4900, Volume=13152830
+[2024-11-17T04:43:32.443+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-26 and MSFT.
+[2024-11-17T04:43:32.445+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-23, Symbol=MSFT: Open=416.9800, High=419.2600, Low=412.0900, Close=416.7900, Volume=18493784
+[2024-11-17T04:43:33.859+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-23 and MSFT.
+[2024-11-17T04:43:33.861+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-22, Symbol=MSFT: Open=424.3600, High=426.7899, Low=414.6100, Close=415.5500, Volume=19361901
+[2024-11-17T04:43:35.454+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-22 and MSFT.
+[2024-11-17T04:43:35.455+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-21, Symbol=MSFT: Open=424.0750, High=426.4000, Low=421.7200, Close=424.1400, Volume=16067298
+[2024-11-17T04:43:36.809+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-21 and MSFT.
+[2024-11-17T04:43:36.811+0000] {logging_mixin.py:188} INFO - Inserting data for 2024-08-20, Symbol=MSFT: Open=421.7000, High=425.8600, Low=421.6400, Close=424.8000, Volume=16387581
+[2024-11-17T04:43:38.350+0000] {logging_mixin.py:188} INFO - Data inserted/updated for 2024-08-20 and MSFT.
+[2024-11-17T04:43:38.356+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-11-17T04:43:38.360+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-17T04:43:38.447+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=stockprices_v2_decorator, task_id=load, run_id=scheduled__2024-11-17T04:30:00+00:00, execution_date=20241117T043000, start_date=20241117T044202, end_date=20241117T044338
+[2024-11-17T04:43:38.586+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-11-17T04:43:38.619+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-17T04:43:38.621+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

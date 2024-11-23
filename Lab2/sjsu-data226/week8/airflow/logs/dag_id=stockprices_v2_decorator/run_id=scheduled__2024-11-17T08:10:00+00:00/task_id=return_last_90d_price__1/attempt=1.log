@@ -1,0 +1,20 @@
+[2024-11-17T08:35:19.444+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-17T08:35:19.775+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stockprices_v2_decorator.return_last_90d_price__1 scheduled__2024-11-17T08:10:00+00:00 [queued]>
+[2024-11-17T08:35:19.853+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stockprices_v2_decorator.return_last_90d_price__1 scheduled__2024-11-17T08:10:00+00:00 [queued]>
+[2024-11-17T08:35:19.862+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-11-17T08:35:20.005+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): return_last_90d_price__1> on 2024-11-17 08:10:00+00:00
+[2024-11-17T08:35:20.249+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=5739) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-17T08:35:20.950+0000] {standard_task_runner.py:63} INFO - Started process 5763 to run task
+[2024-11-17T08:35:21.330+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'stockprices_v2_decorator', 'return_last_90d_price__1', 'scheduled__2024-11-17T08:10:00+00:00', '--job-id', '818', '--raw', '--subdir', 'DAGS_FOLDER/stockprices_v2_decorator(3).py', '--cfg-path', '/tmp/tmp1_k6_yhd']
+[2024-11-17T08:35:21.800+0000] {standard_task_runner.py:91} INFO - Job 818: Subtask return_last_90d_price__1
+[2024-11-17T08:35:22.598+0000] {task_command.py:426} INFO - Running <TaskInstance: stockprices_v2_decorator.return_last_90d_price__1 scheduled__2024-11-17T08:10:00+00:00 [running]> on host 3627cdc70e56
+[2024-11-17T08:35:24.147+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stockprices_v2_decorator' AIRFLOW_CTX_TASK_ID='return_last_90d_price__1' AIRFLOW_CTX_EXECUTION_DATE='2024-11-17T08:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-17T08:10:00+00:00'
+[2024-11-17T08:35:24.171+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-17T08:35:24.620+0000] {python.py:237} INFO - Done. Returned value was: []
+[2024-11-17T08:35:24.661+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-17T08:35:24.876+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=stockprices_v2_decorator, task_id=return_last_90d_price__1, run_id=scheduled__2024-11-17T08:10:00+00:00, execution_date=20241117T081000, start_date=20241117T083519, end_date=20241117T083524
+[2024-11-17T08:35:25.205+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-11-17T08:35:25.442+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-17T08:35:25.483+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

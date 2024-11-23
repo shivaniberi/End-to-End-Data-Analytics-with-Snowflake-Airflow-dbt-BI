@@ -1,0 +1,67 @@
+[2024-11-14T00:09:54.397+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-14T00:09:54.410+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: PopulationDataToSnowflake.load_population_data manual__2024-11-14T00:09:50.268408+00:00 [queued]>
+[2024-11-14T00:09:54.414+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: PopulationDataToSnowflake.load_population_data manual__2024-11-14T00:09:50.268408+00:00 [queued]>
+[2024-11-14T00:09:54.415+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-11-14T00:09:54.422+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): load_population_data> on 2024-11-14 00:09:50.268408+00:00
+[2024-11-14T00:09:54.430+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=358) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-14T00:09:54.434+0000] {standard_task_runner.py:63} INFO - Started process 360 to run task
+[2024-11-14T00:09:54.433+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'PopulationDataToSnowflake', 'load_population_data', 'manual__2024-11-14T00:09:50.268408+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/PopulationDataToSnowflake.py', '--cfg-path', '/tmp/tmpoqij3c7d']
+[2024-11-14T00:09:54.435+0000] {standard_task_runner.py:91} INFO - Job 30: Subtask load_population_data
+[2024-11-14T00:09:54.467+0000] {task_command.py:426} INFO - Running <TaskInstance: PopulationDataToSnowflake.load_population_data manual__2024-11-14T00:09:50.268408+00:00 [running]> on host 3627cdc70e56
+[2024-11-14T00:09:54.531+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='PopulationDataToSnowflake' AIRFLOW_CTX_TASK_ID='load_population_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-14T00:09:50.268408+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-14T00:09:50.268408+00:00'
+[2024-11-14T00:09:54.533+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-14T00:09:54.544+0000] {base.py:84} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2024-11-14T00:09:54.545+0000] {connection.py:399} INFO - Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: Linux-5.10.25-linuxkit-aarch64-with-glibc2.36
+[2024-11-14T00:09:54.547+0000] {connection.py:1239} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-11-14T00:09:56.006+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-14T00:09:56.272+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-14T00:09:56.848+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-14T00:09:56.852+0000] {logging_mixin.py:188} INFO - Error loading data: 001003 (42000): 01b85aa9-0000-1aab-0000-370d0001129e: SQL compilation error:
+syntax error line 3 at position 12 unexpected 'ON'.
+[2024-11-14T00:09:56.854+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-14T00:09:56.858+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/PopulationDataToSnowflake.py", line 94, in load_population_data
+    raise e
+  File "/opt/airflow/dags/PopulationDataToSnowflake.py", line 84, in load_population_data
+    cur.execute(sql, (record['country'], record['year'], record['population']))
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/cursor.py", line 1080, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 345, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 001003 (42000): 01b85aa9-0000-1aab-0000-370d0001129e: SQL compilation error:
+syntax error line 3 at position 12 unexpected 'ON'.
+[2024-11-14T00:09:56.881+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=PopulationDataToSnowflake, task_id=load_population_data, run_id=manual__2024-11-14T00:09:50.268408+00:00, execution_date=20241114T000950, start_date=20241114T000954, end_date=20241114T000956
+[2024-11-14T00:09:56.904+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 30 for task load_population_data (001003 (42000): 01b85aa9-0000-1aab-0000-370d0001129e: SQL compilation error:
+syntax error line 3 at position 12 unexpected 'ON'.; 360)
+[2024-11-14T00:09:56.971+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-11-14T00:09:57.003+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-14T00:09:57.005+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

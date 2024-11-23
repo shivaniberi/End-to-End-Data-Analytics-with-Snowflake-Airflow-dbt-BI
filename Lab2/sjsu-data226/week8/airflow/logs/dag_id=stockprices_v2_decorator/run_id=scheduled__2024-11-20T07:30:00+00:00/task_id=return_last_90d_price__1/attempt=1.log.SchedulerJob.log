@@ -1,0 +1,1 @@
+[2024-11-20T09:47:20.165+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: stockprices_v2_decorator.return_last_90d_price__1 scheduled__2024-11-20T07:30:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

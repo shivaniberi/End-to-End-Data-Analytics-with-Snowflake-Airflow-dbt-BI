@@ -1,0 +1,2 @@
+snowflake-sqlalchemy
+snowflake-connector-python
